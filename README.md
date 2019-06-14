@@ -1,1 +1,1 @@
-# Speed Dat(a)Ing
+![logo](https://github.com/rreinette/Speed-Dat-a-ing/blob/master/assets/logo.jpg)
