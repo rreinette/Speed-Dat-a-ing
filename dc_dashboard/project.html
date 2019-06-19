@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>dc.js - Sunburst Chart Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/dc.css"/>
+    <style>
+        .pie-slice path {
+            stroke:#fff;
+        }
+        .dc-chart .selected path {
+            stroke-width: 1;
+            stroke:#fff;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="container" style="width:100%">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="col-sm-9">
+                <div class="row">
+                    <div id="test"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div id="test3"></div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div id="test2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <div id="attractive"></div>
+                </div>
+                <div class="row">
+                    <div id="sincere"></div>
+                </div>
+                <div class="row">
+                    <div id="fun"></div>
+                </div>        
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/d3.js"></script>
+<script type="text/javascript" src="js/crossfilter.js"></script>
+<script type="text/javascript" src="js/dc.js"></script>
+<script type="text/javascript">
+
+var chart3 = dc.rowChart("#test3");
+var chart2 = dc.rowChart("#test2");
+var chart = dc.sunburstChart("#test");
+var attractive = dc.barChart("#attractive")
+var sincere = dc.barChart("#sincere")
+var fun = dc.barChart("#fun")
+
+d3.csv("new_dataset.csv").then(function(dates) {
+
+    var ndx = crossfilter(dates),
+        personDimension = ndx.dimension(function (d) {
+            return [d.race, d.field_cd];
+        });
+
+    var personSumGroup = personDimension.group().reduce(
+        function reduceAdd(p, d) {
+            if(d.iid in p.ids){
+                p.ids[d.iid] += 1
+            }
+            else{
+                p.ids[d.iid] = 1;
+                p.id_count++;
+            }
+            return p;
+        },
+
+        function reduceRemove(p, d) {
+            p.ids[d.iid]--;
+            if(p.ids[d.iid] === 0){
+                delete p.ids[d.iid];
+                p.id_count--;
+            }
+            return p;
+        },
+
+        function reduceInitial() {
+            return {ids: {},
+                    id_count: 0};
+        }
+    )
+
+    var raceDimension = ndx.dimension(function (d) {
+        return d.race;
+    });
+    
+    var raceSumGroup = raceDimension.group().reduce(
+        function reduceAdd(p, d) {
+            if(d.iid in p.ids){
+                p.ids[d.iid] += 1
+            }
+            else{
+                p.ids[d.iid] = 1;
+                p.id_count++;
+            }
+            return p;
+        },
+
+        function reduceRemove(p, d) {
+            p.ids[d.iid]--;
+            if(p.ids[d.iid] === 0){
+                delete p.ids[d.iid];
+                p.id_count--;
+            }
+            return p;
+        },
+
+        function reduceInitial() {
+            return {ids: {},
+                    id_count: 0};
+        }
+    )
+
+    var fieldDimension = ndx.dimension(function (d) {
+        return d.field_cd;
+    });
+
+    var fieldSumGroup = fieldDimension.group().reduce(
+        function reduceAdd(p, d) {
+            if(d.iid in p.ids){
+                p.ids[d.iid] += 1
+            }
+            else{
+                p.ids[d.iid] = 1;
+                p.id_count++;
+            }
+            return p;
+        },
+
+        function reduceRemove(p, d) {
+            p.ids[d.iid]--;
+            if(p.ids[d.iid] === 0){
+                delete p.ids[d.iid];
+                p.id_count--;
+            }
+            return p;
+        },
+
+        function reduceInitial() {
+            return {ids: {},
+                    id_count: 0};
+        }
+    )
+
+    var attractiveDimension = ndx.dimension(function (d) {
+        return d.attr1_1;
+    });
+
+    var attractiveSumGroup = attractiveDimension.group().reduce(
+        function reduceAdd(p, d) {
+            if(d.iid in p.ids){
+                p.ids[d.iid] += 1
+            }
+            else{
+                p.ids[d.iid] = 1;
+                p.id_count++;
+            }
+            return p;
+        },
+
+        function reduceRemove(p, d) {
+            p.ids[d.iid]--;
+            if(p.ids[d.iid] === 0){
+                delete p.ids[d.iid];
+                p.id_count--;
+            }
+            return p;
+        },
+
+        function reduceInitial() {
+            return {ids: {},
+                    id_count: 0};
+        }
+    )
+
+    var sincereDimension = ndx.dimension(function (d) {
+        return d.sinc1_1;
+    });
+
+    var sincereSumGroup = sincereDimension.group().reduce(
+        function reduceAdd(p, d) {
+            if(d.iid in p.ids){
+                p.ids[d.iid] += 1
+            }
+            else{
+                p.ids[d.iid] = 1;
+                p.id_count++;
+            }
+            return p;
+        },
+
+        function reduceRemove(p, d) {
+            p.ids[d.iid]--;
+            if(p.ids[d.iid] === 0){
+                delete p.ids[d.iid];
+                p.id_count--;
+            }
+            return p;
+        },
+
+        function reduceInitial() {
+            return {ids: {},
+                    id_count: 0};
+        }
+    )
+
+    var funDimension = ndx.dimension(function (d) {
+        return d.fun1_1;
+    });
+
+    var funSumGroup = funDimension.group().reduce(
+        function reduceAdd(p, d) {
+            if(d.iid in p.ids){
+                p.ids[d.iid] += 1
+            }
+            else{
+                p.ids[d.iid] = 1;
+                p.id_count++;
+            }
+            return p;
+        },
+
+        function reduceRemove(p, d) {
+            p.ids[d.iid]--;
+            if(p.ids[d.iid] === 0){
+                delete p.ids[d.iid];
+                p.id_count--;
+            }
+            return p;
+        },
+
+        function reduceInitial() {
+            return {ids: {},
+                    id_count: 0};
+        }
+    )
+
+    attractive
+        .width(350)
+        .height(150)
+        .x(d3.scaleLinear().domain([0, 100]))
+        .dimension(attractiveDimension)
+        .group(attractiveSumGroup)
+        .valueAccessor(function (d) {
+            return d.value.id_count;
+        })
+
+    sincere
+        .width(350)
+        .height(150)
+        .x(d3.scaleLinear().domain([0, 100]))
+        .dimension(sincereDimension)
+        .group(sincereSumGroup)
+        .valueAccessor(function (d) {
+            return d.value.id_count;
+        })
+    
+    fun
+        .width(350)
+        .height(150)
+        .x(d3.scaleLinear().domain([0, 100]))
+        .dimension(funDimension)
+        .group(funSumGroup)
+        .valueAccessor(function (d) {
+            return d.value.id_count;
+        })
+
+    chart3
+        .width(300)
+        .height(250)
+        .dimension(fieldDimension)
+        .group(fieldSumGroup)
+        .valueAccessor(function (d) {
+            return d.value.id_count;
+        })
+
+    chart2
+        .width(300)
+        .height(250)
+        .dimension(raceDimension)
+        .group(raceSumGroup)
+        .valueAccessor(function (d) {
+            return d.value.id_count;
+        })
+
+    chart
+        .width(480)
+        .height(480)
+        .innerRadius(100)
+        .dimension(personDimension)
+        .group(personSumGroup)
+        .valueAccessor(function (d) {
+            return d.value.id_count;
+        })
+
+    dc.renderAll();
+
+});
+
+</script>
+
+</body>
+</html>
