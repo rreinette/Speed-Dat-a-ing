@@ -6,6 +6,7 @@ d3.csv('data/sdv2.csv')
 .row( (d,i) => {
                  return {
                           id: +d.iid,
+                          gender: d.gender,
                           self_attractive: +d['s_attr'],
                           self_sincere: +d['s_sinc'],
                           self_intelligent: +d['s_intel'],
@@ -31,7 +32,7 @@ d3.csv('data/sdv2.csv')
      	.data(dataset)
       .enter()
     	.append('option')
-      .text(function (d) { return d.id; }) // text showed in the menu
+      .text(function (d) { return d.id + ' (' + d.gender + ')'; }) // text showed in the menu
       .attr("value", function (d) { return d.id; });
       data = dataset.filter(function(d){return d.id = dataset[i].id})
 
