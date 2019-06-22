@@ -55,14 +55,14 @@ var chart = new Chart(ctx, {
         labels: ['Attractive', 'Sincere', 'Intelligent', 'Fun', 'Ambitious'],
         datasets: [{
             label: 'How they see themself' ,
-            backgroundColor: 'rgb(255, 211, 0,0.3)',
-            borderColor: 'rgb(255, 211, 0)',
+            backgroundColor: 'rgb(255, 99, 132,0.3)',
+            borderColor: 'rgb(255, 99, 132)',
             data: [data.self_attractive, data.self_sincere, data.self_intelligent,data.self_fun, data.self_ambitious]
         },
         {
             label: 'How other sees them',
-            backgroundColor: 'rgb(99, 255, 132,0.3)',
-            borderColor: 'rgb(99, 255, 132)',
+            backgroundColor: 'rgb(216,191,216,0.7)',
+            borderColor: 'rgb(147,112,219)',
             data: [data.other_attractive, data.other_sincere, data.other_intelligent,data.other_fun, data.other_ambitious]
         }]
     },
