@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript"  src="js/d3/d3.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Speed Dat(a)ing</title>
+</head>
+<body>
+
+    <div class='nav-header'>
+        <img src='http://localhost:5000/assets/logo.jpg'>
+    </div>
+    <div class='nav-bar'>
+        <div class='nav-item'>
+            <a href='http://localhost:5000/'><p>Intro</p></a>
+        </div>
+        <div class='nav-item'>
+            <a href='http://localhost:5000/participants.html'><p>Meet our participants</p></a>
+        </div>
+        <div class='nav-item'>
+            <a href='http://localhost:5000/perception.html'><p>People Perception</p></a>
+        </div>
+        <div class='nav-item'>
+            <a href='http://localhost:8080/project.html'><p>Matching population</p></a>
+        </div>
+    </div>
+    
+    <canvas height="50px" id="myChart"></canvas>
+    <div class="radar">
+        <p>Select a candidate</p>
+        <select id="my-dropdown"></select>
+    </div>
+    <script type="text/javascript" src="js/view-2.js"></script>
+
+</body>
+</html>
