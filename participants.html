@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Speed Dat(a)ing</title>
+</head>
+<body>
+
+    <div class='nav-header'>
+        <img src='http://localhost:5000/assets/logo.jpg'>
+    </div>
+    <div class='nav-bar'>
+        <div class='nav-item'>
+            <a href='http://localhost:5000/'><p>Intro</p></a>
+        </div>
+        <div class='nav-item'>
+            <a href='http://localhost:5000/participants.html'><p>Meet our participants</p></a>
+        </div>
+        <div class='nav-item'>
+            <a href='http://localhost:5000/perception.html'><p>People Perception</p></a>
+        </div>
+        <div class='nav-item'>
+            <a href='http://localhost:8080/project.html'><p>Matching population</p></a>
+        </div>
+    </div>
+    <div class='viz-caption' style='margin-top:20px'>
+        <p> Let's get to know our participants. You can choose between the different characteristics to show the populations</p>
+    </div>
+    <div class='lollipop-control'>
+        <button onclick="update('age')">Age</button>
+        <button onclick="update('race')">Ethnicity</button>
+        <button onclick="update('goal')">Goal in the event</button>
+        <button onclick="update('go_out')">Frequency of going out</button>
+        <button onclick="update('date')">Frequency of dates</button>
+        <button onclick="update('exphappy')">Level of Happiness</button>
+        <button onclick="update('career')">Chosen Career Path</button>
+        <button onclick="update('field')">Field of study</button>
+    </div>
+    <div id='lollipop' class='lollipop'></div>
+    
+    <script type="text/javascript" src='js/lollipop.js'></script>
+</body>
+</html>

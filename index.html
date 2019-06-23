@@ -5,16 +5,70 @@
     <script type="text/javascript"  src="js/d3/d3.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Speed Dat(a)ing</title>
 </head>
 <body>
-<canvas height="50px" id="myChart"></canvas>
-<div class="container">
-<p>Select a candidate</p>
-<select id="my-dropdown"></select>
-</div>
-<script type="text/javascript" src="js/view-2.js"></script>
 
+    <div class='nav-header'>
+        <img src='http://localhost:5000/assets/logo.jpg'>
+    </div>
+    <div class='nav-bar'>
+        <div class='nav-item'>
+            <a href='http://localhost:5000/'><p>Intro</p></a>
+        </div>
+        <div class='nav-item'>
+            <a href='http://localhost:5000/participants.html'><p>Meet our participants</p></a>
+        </div>
+        <div class='nav-item'>
+            <a href='http://localhost:5000/perception.html'><p>People Perception</p></a>
+        </div>
+        <div class='nav-item'>
+            <a href='http://localhost:8080/project.html'><p>Matching population</p></a>
+        </div>
+    </div>
+    <div class='intro'>
+        <div class='boy'>
+            <img src='assets/boy.svg'>
+            <p>277 men</p>
+            <img src='assets/girl.svg'>
+            <p>274 women</p> 
+        </div>
+        <div class='process'>
+            <img src='assets/meeting.svg'>
+            <p>Meet for 4 minutes</p>
+        </div>
+        <div class='survey'>
+            <img src='assets/completed-task.svg'>
+            <p>And give us their impression over 6 main attributes throughout the experience</p>
+        </div>
+        <div class='attributes'>
+            <div class='single-at'>
+                <img src='assets/magnet.svg'>
+                <p>Attractivity</p>
+            </div>
+            <div class='single-at'>
+                <img src='assets/honest.svg'>
+                <p>Sincerity</p>
+            </div>
+            <div class='single-at'>
+                <img src='assets/brain.svg'>
+                <p>Intelligence</p>
+            </div>
+            <div class='single-at'>
+                <img src='assets/confetti.svg'>
+                <p>Fun</p>
+            </div>
+            <div class='single-at'>
+                <img src='assets/mountain-peak.svg'>
+                <p>Ambition</p>
+            </div>
+            <div class='single-at'>
+                <img src='assets/network.svg'>
+                <p>Shared Interests</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
