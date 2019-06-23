@@ -1,5 +1,8 @@
 a:hover, a:link, a:visited, a:active{
     text-decoration:None;
+}
+
+.nav-link{
     color:white;
 }
 
