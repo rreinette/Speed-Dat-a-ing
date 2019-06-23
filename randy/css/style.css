@@ -1,0 +1,14 @@
+.container{
+position: absolute;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.left{
+position: absolute;
+left: 10%;
+}
+.right{
+position: absolute;
+right: 10%;
+}
