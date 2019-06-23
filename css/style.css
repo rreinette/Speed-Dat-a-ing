@@ -1,7 +1,99 @@
-.container{
+a:hover, a:link, a:visited, a:active{
+    text-decoration:None;
+    color:white;
+}
+
+p{
+    text-align:center;
+    font-family:helvetica;
+}
+
+img{
+    max-width:100%;
+}
+
+
+.nav-header{
+    margin-top:0px;
+    overflow:auto;
+}
+
+.nav-bar{
+    width:100%;
+    height:40px;
+    font-size:20px;
+    overflow:auto;
+    background-color:lightgray;
+    padding-top:0px;
+}
+
+.nav-item{
+    float:left;
+    margin-left:10px;
+    padding-left:10px;
+    padding-right:10px;
+    height:100%;
+    background-color:gray;
+}
+
+.intro{
+    margin-top:20px;
+}
+
+
+.boy,.girl{
+    margin-left:50px;
+    width:200px;
+    float:left;
+}
+
+.survey,.process{
+    margin-left:100px;
+    margin-top:100px;
+    width:200px;
+    float:left;
+}
+
+.attributes{
+    margin-left:100px;
+    width:250px;
+    float:left
+}
+
+.single-at{
+    float:left;
+    width:45%;
+    margin-left:5%;
+    margin-top:10px;
+}
+
+.lollipop-control{
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.lollipop{
+    margin-left:100px;
+}
+
+.radar{
 position: absolute;
 left: 46%;
 display: flex;
 flex-direction: column;
 align-items: center;
+margin-top:20px;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
 }
