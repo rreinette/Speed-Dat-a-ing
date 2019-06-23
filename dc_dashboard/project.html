@@ -21,32 +21,74 @@
 <body>
 
 
-<div class="container" style="width:100%">
+<div class="container" style="width:100%; margin-top: 55px; margin-left: 20px">
     <div class="row">
-        <div class="col-sm-6">
-            <div class="col-sm-9">
+        <div class="col-sm-8">
+            <div class="col-sm-6">
                 <div class="row">
-                    <div id="test"></div>
+                    <div id="test" style="margin-left: 50px">
+                        <strong style="font-size: 20px; margin-left: -35px">Hommes</strong>
+                        <a class="reset" href="javascript:chart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
-                <div class="row">
+                <div class="row" style="margin-top: 40px">
                     <div class="col-sm-6">
-                        <div id="test3"></div>
+                        <div id="test3">
+                            <strong style="font-size: 20px">Domaine d'étude</strong>
+                            <a class="reset" href="javascript:chart3.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                            <div class="clearfix"></div>
+                        </div>
                     </div>
                     <div class="col-sm-6">
-                        <div id="test2"></div>
+                        <div id="test2">
+                            <strong style="font-size: 20px">Ethnie</strong>
+                            <a class="reset" href="javascript:chart2.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                            <div class="clearfix"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="row">
-                    <div id="attractive"></div>
+            <div class="col-sm-6">
+                <div class="row" style="margin-left: 15px">
+                    <div id="attractive">
+                        <strong style="font-size: 20px">Attractivité</strong>
+                        <!--
+                        <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+                        -->
+                        <a class="reset" href="javascript:attractive.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div id="sincere"></div>
+                <div class="row" style="margin-left: 15px">
+                    <div id="sincere">
+                        <strong style="font-size: 20px">Sincérité</strong>
+                        <a class="reset" href="javascript:sincere.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div id="fun"></div>
+                <div class="row" style="margin-left: 15px">
+                    <div id="fun">
+                        <strong style="font-size: 20px">Fun</strong>
+                        <a class="reset" href="javascript:fun.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="row" style="margin-left: 15px">
+                    <div>
+                        <div class="dc-data-count", style="margin-left: 25px; margin-top: 20px; font-size: 16px;">
+                            <span class="filter-count"></span> selected out of <span class="total-count"></span> records | <a
+                                href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+                        </div>
+                    </div>
                 </div>        
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div id="matches">
+                <strong style="font-size: 20px;">Matchs</strong>
+                <a class="reset" href="javascript:matchesChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -64,15 +106,27 @@ var chart = dc.sunburstChart("#test");
 var attractive = dc.barChart("#attractive")
 var sincere = dc.barChart("#sincere")
 var fun = dc.barChart("#fun")
+var datesCount = dc.dataCount('.dc-data-count');
+var matchesChart = dc.bubbleChart('#matches');
 
 d3.csv("new_dataset.csv").then(function(dates) {
 
-    var ndx = crossfilter(dates),
-        personDimension = ndx.dimension(function (d) {
-            return [d.race, d.field_cd];
-        });
+    dates.forEach(function (d) {
+        d.attr1_1 = +d.attr1_1;
+        d.sinc1_1 = +d.sinc1_1;
+        d.fun1_1 = +d.fun1_1;
+        d.match = +d.match;
+    });
 
-    var personSumGroup = personDimension.group().reduce(
+    var ndx = crossfilter(dates)
+    
+    var all = ndx.groupAll();
+
+    menDimension = ndx.dimension(function (d) {
+        return [d.race, d.field_cd];
+    });
+
+    var menSumGroup = menDimension.group().reduce(
         function reduceAdd(p, d) {
             if(d.iid in p.ids){
                 p.ids[d.iid] += 1
@@ -96,6 +150,30 @@ d3.csv("new_dataset.csv").then(function(dates) {
         function reduceInitial() {
             return {ids: {},
                     id_count: 0};
+        }
+    )
+
+    womenDimension = ndx.dimension(function (d) {
+        return [d.race_p, d.field_cd_p];
+    });
+
+    var womenGroup = womenDimension.group().reduce(
+        function reduceAdd(p, d) {
+            if(d.match === 1){
+                p.matches_count++
+            }
+            return p;
+        },
+
+        function reduceRemove(p, d) {
+            if(d.match === 1){
+                p.matches_count--
+            }
+            return p;
+        },
+
+        function reduceInitial() {
+            return {matches_count: 0};
         }
     )
 
@@ -255,62 +333,128 @@ d3.csv("new_dataset.csv").then(function(dates) {
     )
 
     attractive
-        .width(350)
-        .height(150)
+        .width(600)
+        .height(270)
+        .round(dc.round.floor)
+        .alwaysUseRounding(true)
         .x(d3.scaleLinear().domain([0, 100]))
         .dimension(attractiveDimension)
         .group(attractiveSumGroup)
         .valueAccessor(function (d) {
             return d.value.id_count;
         })
+        .elasticY(true)
+        .renderHorizontalGridLines(true)
+        .renderVerticalGridLines(true)
+        .yAxis().ticks(5)
+
+    attractive.margins().top = 30
 
     sincere
-        .width(350)
-        .height(150)
+        .width(600)
+        .height(270)
         .x(d3.scaleLinear().domain([0, 100]))
         .dimension(sincereDimension)
         .group(sincereSumGroup)
         .valueAccessor(function (d) {
             return d.value.id_count;
         })
+        .elasticY(true)
+        .renderHorizontalGridLines(true)
+        .renderVerticalGridLines(true)
+        .yAxis().ticks(5)
+
+    sincere.margins().top = 30
     
     fun
-        .width(350)
-        .height(150)
+        .width(600)
+        .height(270)
         .x(d3.scaleLinear().domain([0, 100]))
         .dimension(funDimension)
         .group(funSumGroup)
         .valueAccessor(function (d) {
             return d.value.id_count;
         })
+        .elasticY(true)
+        .renderHorizontalGridLines(true)
+        .renderVerticalGridLines(true)
+        .yAxis().ticks(5)
+
+    fun.margins().top = 30
 
     chart3
-        .width(300)
-        .height(250)
+        .width(350)
+        .height(400)
         .dimension(fieldDimension)
         .group(fieldSumGroup)
         .valueAccessor(function (d) {
             return d.value.id_count;
         })
+        .elasticX(true)
+
+    chart3.margins().top = 20
 
     chart2
         .width(300)
-        .height(250)
+        .height(350)
         .dimension(raceDimension)
         .group(raceSumGroup)
         .valueAccessor(function (d) {
             return d.value.id_count;
         })
+        .elasticX(true)
+
+    chart2.margins().top = 80
 
     chart
         .width(480)
         .height(480)
         .innerRadius(100)
-        .dimension(personDimension)
-        .group(personSumGroup)
+        .dimension(menDimension)
+        .group(menSumGroup)
         .valueAccessor(function (d) {
             return d.value.id_count;
         })
+
+    datesCount
+        .crossfilter(ndx)
+        .groupAll(all)
+        .html({
+            some: '<strong>%filter-count</strong> "dates" sélectionnées sur <strong>%total-count</strong>' +
+                ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a>',
+            all: 'Toutes les dates sélectionnées. Cliquez sur les graphes pour appliquer des filtres'
+        });
+
+    matchesChart
+        .width(500)
+        .height(950)
+        .dimension(womenDimension)
+        .group(womenGroup)
+        .colors(d3.schemeRdYlGn[9])
+        .keyAccessor(function (p) {
+            return p.key[0];
+        })
+        .valueAccessor(function (p) {
+            return p.key[1];
+        })
+        .radiusValueAccessor(function (p) {
+            return 8*p.value.matches_count;
+        })
+        .maxBubbleRelativeSize(1)
+        .x(d3.scaleLinear().domain([0, 7]))
+        .y(d3.scaleLinear().domain([0, 17]))
+        .r(d3.scaleLinear().domain([0, 4000]))
+        .renderHorizontalGridLines(true)
+        .renderVerticalGridLines(true)
+        .xAxisLabel('Ethnie')
+        .yAxisLabel('Etudes')
+        .title(function (p) {
+            return p.value.matches_count;
+        })
+
+    matchesChart.xAxis().ticks(8)
+    matchesChart.yAxis().ticks(18)
+    matchesChart.margins().top = 30    
 
     dc.renderAll();
 
