@@ -543,6 +543,8 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
         .title(function (p) {
             return p.value.matches_count;
         })
+        .onClick = function (datum) {
+        };
 
     matchesChart.xAxis().ticks(8)
     matchesChart.xAxis().tickFormat(function (v) {
@@ -568,7 +570,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
 
     matchesChart.translate = async function (x){
         
-        await sleep(0);
+        await sleep(10);
 
         matchesChart
             .select('.axis.y') 
