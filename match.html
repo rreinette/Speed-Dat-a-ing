@@ -39,7 +39,7 @@
         </div>
     </div>
 
-<div class="container" style="width:100%; margin-top: 55px; margin-left: 20px">
+<div class="container" style="width:100%; margin-top: 55px; margin-left: 20px; margin-bottom: 30px">
     <div class="row">
         <div class="col-sm-8">
             <div class="col-sm-6">
@@ -126,6 +126,40 @@ var sincere = dc.barChart("#sincere")
 var fun = dc.barChart("#fun")
 var datesCount = dc.dataCount('.dc-data-count');
 var matchesChart = dc.bubbleChart('#matches');
+
+race_dict = {
+    0 : '',
+    1 : 'Black',
+    2 : 'European',
+    3 : 'Latino',
+    4 : 'Asian',
+    5 : 'Native',
+    6 : 'Other',
+    7 : ''
+}
+
+field_dict = {
+    0 : '',
+    1 : 'Law',
+    2 : 'Math',
+    3 : 'Social Science',
+    4 : 'Medical Science',
+    5 : 'Engineering',
+    6 : 'English',
+    7 : 'History',
+    8 : 'Business',
+    9 : 'Education',
+    10 : 'Biological Sciences',
+    11 : 'Social Work',
+    12 : 'Undergrade',
+    13 : 'Political Science',
+    14 : 'Film',
+    15 : 'Fine Arts',
+    16 : 'Languages',
+    17 : 'Architecture',
+    18 : 'other',
+    19 : '',
+}
 
 d3.csv("data/new_dataset.csv").then(function(dates) {
 
@@ -351,7 +385,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
     )
 
     attractive
-        .width(600)
+        .width(500)
         .height(270)
         .round(dc.round.floor)
         .alwaysUseRounding(true)
@@ -369,7 +403,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
     attractive.margins().top = 30
 
     sincere
-        .width(600)
+        .width(500)
         .height(270)
         .x(d3.scaleLinear().domain([0, 100]))
         .dimension(sincereDimension)
@@ -385,7 +419,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
     sincere.margins().top = 30
     
     fun
-        .width(600)
+        .width(500)
         .height(270)
         .x(d3.scaleLinear().domain([0, 100]))
         .dimension(funDimension)
@@ -440,7 +474,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
         .html({
             some: '<strong>%filter-count</strong> "dates" sélectionnées sur <strong>%total-count</strong>' +
                 ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a>',
-            all: 'Toutes les dates sélectionnées. Cliquez sur les graphes pour appliquer des filtres'
+            all: 'Toutes les dates sont sélectionnées. Cliquez sur les graphes pour appliquer des filtres'
         });
 
     matchesChart
@@ -464,17 +498,30 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
         .r(d3.scaleLinear().domain([0, 4000]))
         .renderHorizontalGridLines(true)
         .renderVerticalGridLines(true)
-        .xAxisLabel('Ethnie')
-        .yAxisLabel('Etudes')
+        .xAxisLabel('')
+        .renderLabel(false)
+        .yAxisLabel('')
         .title(function (p) {
             return p.value.matches_count;
         })
 
     matchesChart.xAxis().ticks(8)
+    matchesChart.xAxis().tickFormat(function (v) {
+            return race_dict[v];
+        });
     matchesChart.yAxis().ticks(18)
+    matchesChart.yAxis().tickFormat(function (v) {
+            return field_dict[v];
+        });
     matchesChart.margins().top = 30    
 
     dc.renderAll();
+
+    matchesChart
+        .select('.axis.y') 
+        .attr("text-anchor", "end")
+        .selectAll("text")
+        .attr("transform", "rotate(-45)")
 
 });
 
