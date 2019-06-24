@@ -172,7 +172,30 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
 
     var ndx = crossfilter(dates)
     
-    var all = ndx.groupAll();
+    var all_data_count = ndx.groupAll()
+
+    var all = ndx.groupAll().reduce(
+        function reduceAdd(p, d) {
+            p.count++;
+            if(d.match === 1){
+                p.matches_count++
+            }
+            return p;
+        },
+
+        function reduceRemove(p, d) {
+            p.count--;
+            if(d.match === 1){
+                p.matches_count--
+            }
+            return p;
+        },
+
+        function reduceInitial() {
+            return {matches_count: 0,
+                    count: 0};
+        }
+    )
 
     menDimension = ndx.dimension(function (d) {
         return [d.race, d.field_cd];
@@ -483,8 +506,10 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
 
     datesCount
         .crossfilter(ndx)
-        .groupAll(all)
+        .groupAll(all_data_count)
         .html({
+            //some: '<strong>%filter-count</strong> "dates" sélectionnées sur <strong>%total-count</strong>' +
+            //    ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();matchesChart.translate(80)\'>Reset All</a>',
             some: '<strong>%filter-count</strong> "dates" sélectionnées sur <strong>%total-count</strong>' +
                 ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();matchesChart.translate(80)\'>Reset All</a>',
             all: 'Toutes les dates sont sélectionnées. Cliquez sur les graphes pour appliquer des filtres'
@@ -503,12 +528,13 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
             return p.key[1];
         })
         .radiusValueAccessor(function (p) {
-            return 8*p.value.matches_count;
+            console.log(Math.round(8*p.value.matches_count/all.value()['count']*100))
+            return Math.round(8*p.value.matches_count/all.value()['count']*100);
         })
         .maxBubbleRelativeSize(1)
         .x(d3.scaleLinear().domain([0, 7]))
         .y(d3.scaleLinear().domain([0, 17]))
-        .r(d3.scaleLinear().domain([0, 4000]))
+        .r(d3.scaleLinear().domain([0, 300]))
         .renderHorizontalGridLines(true)
         .renderVerticalGridLines(true)
         .xAxisLabel('')
@@ -544,7 +570,6 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
         
         await sleep(0);
 
-        console.log("rotate")
         matchesChart
             .select('.axis.y') 
             .attr("text-anchor", "end")
@@ -568,6 +593,8 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
             .select('.axis.y')
             .attr("transform", "translate(" + x + ",30)")
     }
+
+    matchesChart.all = all
     
     matchesChart.translate(80);
 
