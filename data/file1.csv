@@ -1,0 +1,3313 @@
+pid,gender,variable,value
+1.0,F,Attractive,15.0
+2.0,F,Attractive,45.0
+3.0,F,Attractive,35.0
+4.0,F,Attractive,20.0
+5.0,F,Attractive,20.0
+6.0,F,Attractive,10.0
+7.0,F,Attractive,15.0
+8.0,F,Attractive,9.09
+9.0,F,Attractive,20.0
+10.0,F,Attractive,15.0
+11.0,H,Attractive,35.0
+12.0,H,Attractive,60.0
+13.0,H,Attractive,19.0
+14.0,H,Attractive,30.0
+15.0,H,Attractive,30.0
+16.0,H,Attractive,50.0
+17.0,H,Attractive,35.0
+18.0,H,Attractive,33.33
+19.0,H,Attractive,50.0
+20.0,H,Attractive,100.0
+21.0,F,Attractive,12.0
+22.0,F,Attractive,20.0
+23.0,F,Attractive,10.0
+24.0,F,Attractive,10.0
+25.0,F,Attractive,20.0
+26.0,F,Attractive,20.0
+27.0,F,Attractive,17.0
+28.0,F,Attractive,
+29.0,F,Attractive,20.0
+30.0,F,Attractive,10.0
+31.0,F,Attractive,35.0
+32.0,F,Attractive,50.0
+33.0,F,Attractive,30.0
+34.0,F,Attractive,30.0
+35.0,F,Attractive,20.0
+36.0,F,Attractive,20.0
+37.0,F,Attractive,10.0
+38.0,F,Attractive,50.0
+39.0,F,Attractive,20.0
+40.0,H,Attractive,25.0
+41.0,H,Attractive,30.0
+42.0,H,Attractive,20.0
+43.0,H,Attractive,25.0
+44.0,H,Attractive,25.0
+45.0,H,Attractive,25.0
+46.0,H,Attractive,20.0
+47.0,H,Attractive,20.0
+48.0,H,Attractive,30.0
+49.0,H,Attractive,20.0
+50.0,H,Attractive,35.0
+51.0,H,Attractive,25.0
+52.0,H,Attractive,15.0
+53.0,H,Attractive,40.0
+54.0,H,Attractive,40.0
+55.0,H,Attractive,20.0
+56.0,F,Attractive,17.0
+57.0,F,Attractive,10.0
+58.0,F,Attractive,
+59.0,F,Attractive,
+60.0,F,Attractive,5.0
+61.0,F,Attractive,15.0
+62.0,F,Attractive,30.0
+63.0,F,Attractive,5.0
+64.0,F,Attractive,10.0
+65.0,F,Attractive,17.0
+66.0,H,Attractive,20.0
+67.0,H,Attractive,20.0
+68.0,H,Attractive,21.0
+69.0,H,Attractive,50.0
+70.0,H,Attractive,25.0
+71.0,H,Attractive,60.0
+72.0,H,Attractive,21.0
+73.0,H,Attractive,30.0
+74.0,H,Attractive,30.0
+75.0,H,Attractive,20.0
+76.0,F,Attractive,10.0
+77.0,F,Attractive,15.0
+78.0,F,Attractive,10.0
+79.0,F,Attractive,10.0
+80.0,F,Attractive,10.0
+81.0,F,Attractive,10.0
+82.0,F,Attractive,20.0
+83.0,F,Attractive,10.0
+84.0,F,Attractive,30.0
+85.0,F,Attractive,20.0
+86.0,F,Attractive,15.0
+87.0,F,Attractive,15.0
+88.0,F,Attractive,15.0
+89.0,F,Attractive,25.0
+90.0,F,Attractive,15.0
+91.0,F,Attractive,15.0
+92.0,F,Attractive,10.0
+93.0,F,Attractive,14.0
+94.0,H,Attractive,20.0
+95.0,H,Attractive,18.0
+96.0,H,Attractive,10.0
+97.0,H,Attractive,50.0
+98.0,H,Attractive,40.0
+99.0,H,Attractive,30.0
+100.0,H,Attractive,20.0
+101.0,H,Attractive,40.0
+102.0,H,Attractive,30.0
+103.0,H,Attractive,40.0
+104.0,H,Attractive,20.0
+105.0,H,Attractive,30.0
+106.0,H,Attractive,10.0
+107.0,H,Attractive,19.0
+108.0,H,Attractive,10.0
+109.0,H,Attractive,15.0
+110.0,H,Attractive,20.0
+111.0,H,Attractive,20.0
+112.0,F,Attractive,15.0
+113.0,F,Attractive,15.0
+114.0,F,Attractive,20.0
+115.0,F,Attractive,20.0
+116.0,F,Attractive,15.0
+117.0,F,Attractive,20.0
+119.0,F,Attractive,50.0
+120.0,F,Attractive,10.0
+121.0,F,Attractive,35.0
+122.0,H,Attractive,40.0
+123.0,H,Attractive,50.0
+124.0,H,Attractive,40.0
+125.0,H,Attractive,20.0
+126.0,H,Attractive,25.0
+127.0,H,Attractive,25.0
+128.0,H,Attractive,40.0
+129.0,H,Attractive,40.0
+130.0,H,Attractive,80.0
+131.0,H,Attractive,25.0
+132.0,F,Attractive,16.67
+133.0,F,Attractive,12.77
+134.0,F,Attractive,6.67
+135.0,F,Attractive,18.18
+136.0,F,Attractive,
+137.0,H,Attractive,17.39
+138.0,H,Attractive,20.0
+139.0,H,Attractive,18.75
+140.0,H,Attractive,18.6
+141.0,H,Attractive,20.83
+142.0,F,Attractive,14.29
+143.0,F,Attractive,8.33
+144.0,F,Attractive,16.0
+145.0,F,Attractive,11.36
+146.0,F,Attractive,18.18
+147.0,F,Attractive,18.0
+148.0,F,Attractive,15.09
+149.0,F,Attractive,8.51
+150.0,F,Attractive,12.0
+151.0,F,Attractive,14.55
+152.0,F,Attractive,14.0
+153.0,F,Attractive,9.76
+154.0,F,Attractive,15.38
+155.0,F,Attractive,15.09
+156.0,F,Attractive,14.0
+157.0,F,Attractive,14.29
+158.0,H,Attractive,19.05
+159.0,H,Attractive,15.91
+160.0,H,Attractive,16.0
+161.0,H,Attractive,16.67
+162.0,H,Attractive,15.22
+163.0,H,Attractive,12.0
+164.0,H,Attractive,20.51
+165.0,H,Attractive,16.67
+166.0,H,Attractive,27.78
+167.0,H,Attractive,18.6
+168.0,H,Attractive,11.11
+169.0,H,Attractive,17.78
+170.0,H,Attractive,16.28
+171.0,H,Attractive,19.57
+172.0,H,Attractive,17.78
+173.0,H,Attractive,18.37
+174.0,F,Attractive,9.52
+175.0,F,Attractive,12.24
+176.0,F,Attractive,13.04
+177.0,F,Attractive,15.09
+178.0,F,Attractive,15.22
+179.0,F,Attractive,19.15
+180.0,F,Attractive,15.38
+181.0,F,Attractive,15.38
+182.0,F,Attractive,16.07
+183.0,F,Attractive,20.0
+184.0,H,Attractive,16.67
+185.0,H,Attractive,16.98
+186.0,H,Attractive,19.44
+187.0,H,Attractive,16.98
+188.0,H,Attractive,15.56
+189.0,H,Attractive,16.98
+190.0,H,Attractive,15.56
+191.0,H,Attractive,20.45
+192.0,H,Attractive,19.57
+193.0,H,Attractive,20.93
+194.0,F,Attractive,16.0
+195.0,F,Attractive,15.38
+196.0,F,Attractive,17.65
+197.0,F,Attractive,14.0
+198.0,F,Attractive,15.38
+199.0,F,Attractive,17.5
+200.0,F,Attractive,13.21
+201.0,F,Attractive,15.38
+202.0,F,Attractive,15.38
+203.0,F,Attractive,16.0
+204.0,F,Attractive,19.61
+205.0,F,Attractive,15.38
+206.0,F,Attractive,14.58
+207.0,F,Attractive,17.31
+208.0,F,Attractive,11.54
+209.0,F,Attractive,13.04
+210.0,F,Attractive,20.0
+211.0,F,Attractive,16.36
+212.0,F,Attractive,14.29
+213.0,F,Attractive,15.52
+214.0,H,Attractive,17.02
+215.0,H,Attractive,14.89
+216.0,H,Attractive,7.5
+217.0,H,Attractive,21.28
+218.0,H,Attractive,20.51
+219.0,H,Attractive,16.28
+220.0,H,Attractive,16.67
+221.0,H,Attractive,15.56
+222.0,H,Attractive,9.52
+223.0,H,Attractive,17.39
+224.0,H,Attractive,17.24
+225.0,H,Attractive,14.71
+226.0,H,Attractive,25.64
+227.0,H,Attractive,20.0
+228.0,H,Attractive,13.51
+229.0,H,Attractive,21.43
+230.0,H,Attractive,23.81
+231.0,H,Attractive,18.6
+232.0,H,Attractive,17.78
+233.0,H,Attractive,14.0
+234.0,F,Attractive,20.0
+235.0,F,Attractive,15.0
+236.0,F,Attractive,15.0
+237.0,F,Attractive,10.0
+238.0,F,Attractive,15.0
+239.0,F,Attractive,10.0
+240.0,F,Attractive,10.0
+241.0,F,Attractive,90.0
+242.0,F,Attractive,20.0
+243.0,H,Attractive,20.0
+244.0,H,Attractive,20.0
+245.0,H,Attractive,18.0
+246.0,H,Attractive,35.0
+247.0,H,Attractive,20.0
+248.0,H,Attractive,25.0
+249.0,H,Attractive,22.0
+250.0,H,Attractive,20.0
+251.0,H,Attractive,19.0
+252.0,F,Attractive,0.0
+253.0,F,Attractive,25.0
+254.0,F,Attractive,25.0
+255.0,F,Attractive,16.67
+256.0,F,Attractive,15.0
+257.0,F,Attractive,22.0
+258.0,F,Attractive,7.0
+259.0,F,Attractive,15.0
+260.0,F,Attractive,19.0
+261.0,F,Attractive,15.0
+262.0,F,Attractive,10.0
+263.0,F,Attractive,20.0
+264.0,F,Attractive,15.0
+265.0,F,Attractive,15.0
+266.0,F,Attractive,25.0
+267.0,F,Attractive,20.0
+268.0,F,Attractive,30.0
+269.0,F,Attractive,20.0
+270.0,F,Attractive,16.0
+271.0,F,Attractive,10.0
+272.0,F,Attractive,25.0
+273.0,H,Attractive,30.0
+274.0,H,Attractive,30.0
+275.0,H,Attractive,25.0
+276.0,H,Attractive,24.0
+277.0,H,Attractive,60.0
+278.0,H,Attractive,25.0
+279.0,H,Attractive,27.0
+280.0,H,Attractive,25.0
+281.0,H,Attractive,20.0
+282.0,H,Attractive,25.0
+283.0,H,Attractive,50.0
+284.0,H,Attractive,25.0
+285.0,H,Attractive,20.0
+286.0,H,Attractive,10.0
+287.0,H,Attractive,35.0
+288.0,H,Attractive,20.0
+289.0,H,Attractive,20.0
+290.0,H,Attractive,30.0
+291.0,H,Attractive,20.0
+292.0,H,Attractive,20.0
+293.0,H,Attractive,23.0
+294.0,F,Attractive,20.0
+295.0,F,Attractive,10.0
+296.0,F,Attractive,15.0
+297.0,F,Attractive,25.0
+298.0,F,Attractive,10.0
+299.0,F,Attractive,10.0
+300.0,F,Attractive,15.0
+301.0,F,Attractive,20.0
+302.0,F,Attractive,50.0
+303.0,F,Attractive,20.0
+304.0,F,Attractive,5.0
+305.0,F,Attractive,10.0
+306.0,F,Attractive,16.0
+307.0,F,Attractive,10.0
+308.0,H,Attractive,17.0
+309.0,H,Attractive,20.0
+310.0,H,Attractive,24.0
+311.0,H,Attractive,50.0
+312.0,H,Attractive,25.0
+313.0,H,Attractive,19.0
+314.0,H,Attractive,20.0
+315.0,H,Attractive,6.67
+316.0,H,Attractive,25.0
+317.0,H,Attractive,50.0
+318.0,H,Attractive,40.0
+319.0,H,Attractive,20.0
+320.0,H,Attractive,20.0
+321.0,H,Attractive,30.0
+322.0,F,Attractive,2.0
+323.0,F,Attractive,10.0
+324.0,F,Attractive,40.0
+325.0,F,Attractive,10.0
+326.0,F,Attractive,15.0
+327.0,F,Attractive,15.0
+328.0,F,Attractive,22.0
+329.0,F,Attractive,15.0
+330.0,F,Attractive,15.0
+331.0,F,Attractive,15.0
+332.0,H,Attractive,60.0
+333.0,H,Attractive,50.0
+334.0,H,Attractive,40.0
+335.0,H,Attractive,20.0
+336.0,H,Attractive,20.0
+337.0,H,Attractive,17.0
+338.0,H,Attractive,10.0
+339.0,H,Attractive,
+340.0,H,Attractive,
+341.0,F,Attractive,20.0
+342.0,F,Attractive,40.0
+343.0,F,Attractive,5.0
+344.0,F,Attractive,15.0
+345.0,F,Attractive,10.0
+346.0,F,Attractive,
+347.0,F,Attractive,30.0
+348.0,F,Attractive,15.0
+349.0,F,Attractive,25.0
+350.0,F,Attractive,12.0
+351.0,F,Attractive,15.0
+352.0,F,Attractive,20.0
+353.0,F,Attractive,15.0
+354.0,F,Attractive,20.0
+355.0,F,Attractive,50.0
+356.0,F,Attractive,15.0
+357.0,F,Attractive,15.0
+358.0,F,Attractive,20.0
+359.0,F,Attractive,9.0
+360.0,F,Attractive,20.0
+361.0,H,Attractive,30.0
+362.0,H,Attractive,20.51
+363.0,H,Attractive,25.0
+364.0,H,Attractive,25.0
+365.0,H,Attractive,31.58
+366.0,H,Attractive,14.0
+367.0,H,Attractive,30.0
+368.0,H,Attractive,20.0
+369.0,H,Attractive,17.0
+370.0,H,Attractive,50.0
+371.0,H,Attractive,40.0
+372.0,H,Attractive,30.0
+373.0,H,Attractive,75.0
+374.0,H,Attractive,50.0
+375.0,H,Attractive,30.0
+376.0,H,Attractive,30.0
+377.0,H,Attractive,25.0
+378.0,H,Attractive,25.0
+379.0,F,Attractive,15.0
+380.0,F,Attractive,20.0
+381.0,F,Attractive,20.0
+382.0,F,Attractive,25.0
+383.0,F,Attractive,25.0
+384.0,F,Attractive,20.0
+385.0,F,Attractive,25.0
+386.0,F,Attractive,15.0
+387.0,F,Attractive,20.0
+388.0,F,Attractive,22.0
+389.0,F,Attractive,20.0
+390.0,F,Attractive,10.0
+391.0,F,Attractive,35.0
+392.0,F,Attractive,15.0
+393.0,F,Attractive,8.0
+394.0,F,Attractive,18.0
+395.0,F,Attractive,20.0
+396.0,F,Attractive,15.0
+397.0,H,Attractive,20.0
+398.0,H,Attractive,45.0
+399.0,H,Attractive,25.0
+400.0,H,Attractive,70.0
+401.0,H,Attractive,35.0
+402.0,H,Attractive,25.0
+403.0,H,Attractive,20.0
+404.0,H,Attractive,25.0
+405.0,H,Attractive,30.0
+406.0,H,Attractive,20.0
+407.0,H,Attractive,30.0
+408.0,H,Attractive,20.0
+409.0,H,Attractive,20.0
+410.0,H,Attractive,20.0
+411.0,H,Attractive,35.0
+412.0,H,Attractive,75.0
+413.0,H,Attractive,10.0
+414.0,H,Attractive,95.0
+415.0,H,Attractive,10.0
+416.0,F,Attractive,15.0
+417.0,F,Attractive,20.0
+418.0,F,Attractive,15.0
+419.0,F,Attractive,5.0
+420.0,F,Attractive,10.0
+421.0,F,Attractive,20.0
+422.0,H,Attractive,30.0
+423.0,H,Attractive,30.0
+424.0,H,Attractive,17.0
+425.0,H,Attractive,16.0
+426.0,H,Attractive,25.0
+427.0,H,Attractive,20.0
+428.0,H,Attractive,60.0
+429.0,H,Attractive,55.0
+430.0,F,Attractive,10.0
+431.0,F,Attractive,15.0
+432.0,F,Attractive,15.0
+433.0,F,Attractive,20.0
+434.0,F,Attractive,30.0
+435.0,F,Attractive,25.0
+436.0,F,Attractive,28.0
+437.0,F,Attractive,15.0
+438.0,F,Attractive,14.0
+439.0,F,Attractive,20.0
+440.0,H,Attractive,35.0
+441.0,H,Attractive,35.0
+442.0,H,Attractive,40.0
+443.0,H,Attractive,30.0
+444.0,H,Attractive,50.0
+445.0,H,Attractive,40.0
+446.0,H,Attractive,30.0
+447.0,H,Attractive,15.0
+448.0,H,Attractive,25.0
+449.0,H,Attractive,55.0
+450.0,H,Attractive,50.0
+451.0,H,Attractive,20.0
+452.0,H,Attractive,35.0
+453.0,H,Attractive,30.0
+454.0,F,Attractive,10.0
+455.0,F,Attractive,10.0
+456.0,F,Attractive,25.0
+457.0,F,Attractive,25.0
+458.0,F,Attractive,50.0
+459.0,F,Attractive,30.0
+460.0,H,Attractive,20.0
+461.0,H,Attractive,40.0
+462.0,H,Attractive,30.0
+463.0,H,Attractive,15.0
+464.0,H,Attractive,15.0
+465.0,H,Attractive,20.0
+466.0,F,Attractive,10.0
+467.0,F,Attractive,20.0
+468.0,F,Attractive,15.0
+469.0,F,Attractive,20.0
+470.0,F,Attractive,10.0
+471.0,F,Attractive,15.0
+472.0,F,Attractive,10.0
+473.0,F,Attractive,15.0
+474.0,F,Attractive,15.0
+475.0,F,Attractive,10.0
+476.0,F,Attractive,20.0
+477.0,F,Attractive,16.0
+478.0,F,Attractive,20.0
+479.0,F,Attractive,15.0
+480.0,F,Attractive,16.0
+481.0,H,Attractive,25.0
+482.0,H,Attractive,20.0
+483.0,H,Attractive,40.0
+484.0,H,Attractive,16.0
+485.0,H,Attractive,20.0
+486.0,H,Attractive,20.0
+487.0,H,Attractive,25.0
+488.0,H,Attractive,15.0
+489.0,H,Attractive,20.0
+490.0,H,Attractive,30.0
+491.0,H,Attractive,30.0
+492.0,H,Attractive,30.0
+493.0,H,Attractive,30.0
+494.0,H,Attractive,25.0
+495.0,H,Attractive,20.0
+496.0,F,Attractive,20.0
+497.0,F,Attractive,10.0
+498.0,F,Attractive,18.0
+499.0,F,Attractive,19.0
+500.0,F,Attractive,10.0
+501.0,F,Attractive,30.0
+502.0,H,Attractive,40.0
+503.0,H,Attractive,30.0
+504.0,H,Attractive,30.0
+505.0,H,Attractive,20.0
+506.0,H,Attractive,15.0
+507.0,H,Attractive,20.0
+508.0,H,Attractive,18.0
+509.0,F,Attractive,10.0
+510.0,F,Attractive,25.0
+511.0,F,Attractive,20.0
+512.0,F,Attractive,20.0
+513.0,F,Attractive,20.0
+514.0,F,Attractive,20.0
+515.0,F,Attractive,20.0
+516.0,F,Attractive,58.0
+517.0,F,Attractive,15.0
+518.0,F,Attractive,20.0
+519.0,F,Attractive,40.0
+520.0,F,Attractive,25.0
+521.0,F,Attractive,10.0
+522.0,F,Attractive,10.0
+523.0,F,Attractive,10.0
+524.0,F,Attractive,15.0
+525.0,F,Attractive,10.0
+526.0,F,Attractive,10.0
+527.0,F,Attractive,50.0
+528.0,F,Attractive,40.0
+529.0,F,Attractive,10.0
+530.0,F,Attractive,20.0
+531.0,H,Attractive,15.0
+532.0,H,Attractive,25.0
+533.0,H,Attractive,25.0
+534.0,H,Attractive,30.0
+535.0,H,Attractive,23.0
+536.0,H,Attractive,30.0
+537.0,H,Attractive,20.0
+538.0,H,Attractive,50.0
+539.0,H,Attractive,30.0
+540.0,H,Attractive,20.0
+541.0,H,Attractive,40.0
+542.0,H,Attractive,25.0
+543.0,H,Attractive,20.0
+544.0,H,Attractive,15.0
+545.0,H,Attractive,20.0
+546.0,H,Attractive,35.0
+547.0,H,Attractive,25.0
+548.0,H,Attractive,40.0
+549.0,H,Attractive,20.0
+550.0,H,Attractive,30.0
+551.0,H,Attractive,40.0
+552.0,H,Attractive,70.0
+,F,Attractive,
+1.0,F,Sincere,20.0
+2.0,F,Sincere,5.0
+3.0,F,Sincere,10.0
+4.0,F,Sincere,20.0
+5.0,F,Sincere,5.0
+6.0,F,Sincere,25.0
+7.0,F,Sincere,15.0
+8.0,F,Sincere,18.18
+9.0,F,Sincere,10.0
+10.0,F,Sincere,15.0
+11.0,H,Sincere,20.0
+12.0,H,Sincere,0.0
+13.0,H,Sincere,18.0
+14.0,H,Sincere,5.0
+15.0,H,Sincere,10.0
+16.0,H,Sincere,0.0
+17.0,H,Sincere,15.0
+18.0,H,Sincere,11.11
+19.0,H,Sincere,0.0
+20.0,H,Sincere,0.0
+21.0,F,Sincere,18.0
+22.0,F,Sincere,20.0
+23.0,F,Sincere,20.0
+24.0,F,Sincere,20.0
+25.0,F,Sincere,20.0
+26.0,F,Sincere,20.0
+27.0,F,Sincere,10.0
+28.0,F,Sincere,
+29.0,F,Sincere,22.0
+30.0,F,Sincere,20.0
+31.0,F,Sincere,10.0
+32.0,F,Sincere,0.0
+33.0,F,Sincere,20.0
+34.0,F,Sincere,5.0
+35.0,F,Sincere,23.0
+36.0,F,Sincere,25.0
+37.0,F,Sincere,10.0
+38.0,F,Sincere,10.0
+39.0,F,Sincere,20.0
+40.0,H,Sincere,20.0
+41.0,H,Sincere,20.0
+42.0,H,Sincere,25.0
+43.0,H,Sincere,35.0
+44.0,H,Sincere,15.0
+45.0,H,Sincere,15.0
+46.0,H,Sincere,35.0
+47.0,H,Sincere,20.0
+48.0,H,Sincere,15.0
+49.0,H,Sincere,20.0
+50.0,H,Sincere,10.0
+51.0,H,Sincere,10.0
+52.0,H,Sincere,20.0
+53.0,H,Sincere,15.0
+54.0,H,Sincere,20.0
+55.0,H,Sincere,25.0
+56.0,F,Sincere,18.0
+57.0,F,Sincere,20.0
+58.0,F,Sincere,
+59.0,F,Sincere,
+60.0,F,Sincere,20.0
+61.0,F,Sincere,15.0
+62.0,F,Sincere,10.0
+63.0,F,Sincere,15.0
+64.0,F,Sincere,25.0
+65.0,F,Sincere,17.0
+66.0,H,Sincere,25.0
+67.0,H,Sincere,15.0
+68.0,H,Sincere,17.0
+69.0,H,Sincere,10.0
+70.0,H,Sincere,10.0
+71.0,H,Sincere,15.0
+72.0,H,Sincere,20.0
+73.0,H,Sincere,10.0
+74.0,H,Sincere,0.0
+75.0,H,Sincere,20.0
+76.0,F,Sincere,10.0
+77.0,F,Sincere,20.0
+78.0,F,Sincere,25.0
+79.0,F,Sincere,20.0
+80.0,F,Sincere,20.0
+81.0,F,Sincere,10.0
+82.0,F,Sincere,20.0
+83.0,F,Sincere,32.0
+84.0,F,Sincere,30.0
+85.0,F,Sincere,25.0
+86.0,F,Sincere,20.0
+87.0,F,Sincere,15.0
+88.0,F,Sincere,15.0
+89.0,F,Sincere,15.0
+90.0,F,Sincere,21.0
+91.0,F,Sincere,3.0
+92.0,F,Sincere,20.0
+93.0,F,Sincere,20.0
+94.0,H,Sincere,20.0
+95.0,H,Sincere,18.0
+96.0,H,Sincere,20.0
+97.0,H,Sincere,7.0
+98.0,H,Sincere,20.0
+99.0,H,Sincere,30.0
+100.0,H,Sincere,25.0
+101.0,H,Sincere,8.0
+102.0,H,Sincere,10.0
+103.0,H,Sincere,5.0
+104.0,H,Sincere,15.0
+105.0,H,Sincere,15.0
+106.0,H,Sincere,20.0
+107.0,H,Sincere,24.0
+108.0,H,Sincere,20.0
+109.0,H,Sincere,10.0
+110.0,H,Sincere,20.0
+111.0,H,Sincere,20.0
+112.0,F,Sincere,15.0
+113.0,F,Sincere,15.0
+114.0,F,Sincere,20.0
+115.0,F,Sincere,10.0
+116.0,F,Sincere,15.0
+117.0,F,Sincere,10.0
+119.0,F,Sincere,15.0
+120.0,F,Sincere,10.0
+121.0,F,Sincere,15.0
+122.0,H,Sincere,15.0
+123.0,H,Sincere,10.0
+124.0,H,Sincere,10.0
+125.0,H,Sincere,15.0
+126.0,H,Sincere,40.0
+127.0,H,Sincere,25.0
+128.0,H,Sincere,15.0
+129.0,H,Sincere,20.0
+130.0,H,Sincere,10.0
+131.0,H,Sincere,10.0
+132.0,F,Sincere,16.67
+133.0,F,Sincere,19.15
+134.0,F,Sincere,20.0
+135.0,F,Sincere,22.73
+136.0,F,Sincere,
+137.0,H,Sincere,17.39
+138.0,H,Sincere,20.0
+139.0,H,Sincere,16.67
+140.0,H,Sincere,16.28
+141.0,H,Sincere,20.83
+142.0,F,Sincere,14.29
+143.0,F,Sincere,20.83
+144.0,F,Sincere,16.0
+145.0,F,Sincere,18.18
+146.0,F,Sincere,18.18
+147.0,F,Sincere,18.0
+148.0,F,Sincere,16.98
+149.0,F,Sincere,19.15
+150.0,F,Sincere,20.0
+151.0,F,Sincere,16.36
+152.0,F,Sincere,20.0
+153.0,F,Sincere,19.51
+154.0,F,Sincere,17.31
+155.0,F,Sincere,18.87
+156.0,F,Sincere,18.0
+157.0,F,Sincere,16.33
+158.0,H,Sincere,19.05
+159.0,H,Sincere,20.45
+160.0,H,Sincere,18.0
+161.0,H,Sincere,18.75
+162.0,H,Sincere,15.22
+163.0,H,Sincere,20.0
+164.0,H,Sincere,23.08
+165.0,H,Sincere,12.5
+166.0,H,Sincere,19.44
+167.0,H,Sincere,13.95
+168.0,H,Sincere,17.78
+169.0,H,Sincere,20.0
+170.0,H,Sincere,20.93
+171.0,H,Sincere,10.87
+172.0,H,Sincere,17.78
+173.0,H,Sincere,18.37
+174.0,F,Sincere,23.81
+175.0,F,Sincere,20.41
+176.0,F,Sincere,21.74
+177.0,F,Sincere,16.98
+178.0,F,Sincere,17.39
+179.0,F,Sincere,21.28
+180.0,F,Sincere,17.31
+181.0,F,Sincere,19.23
+182.0,F,Sincere,17.86
+183.0,F,Sincere,22.5
+184.0,H,Sincere,16.67
+185.0,H,Sincere,15.09
+186.0,H,Sincere,19.44
+187.0,H,Sincere,16.98
+188.0,H,Sincere,11.11
+189.0,H,Sincere,16.98
+190.0,H,Sincere,20.0
+191.0,H,Sincere,20.45
+192.0,H,Sincere,19.57
+193.0,H,Sincere,16.28
+194.0,F,Sincere,16.0
+195.0,F,Sincere,19.23
+196.0,F,Sincere,17.65
+197.0,F,Sincere,18.0
+198.0,F,Sincere,19.23
+199.0,F,Sincere,17.5
+200.0,F,Sincere,18.87
+201.0,F,Sincere,17.31
+202.0,F,Sincere,19.23
+203.0,F,Sincere,20.0
+204.0,F,Sincere,15.69
+205.0,F,Sincere,17.31
+206.0,F,Sincere,16.67
+207.0,F,Sincere,13.46
+208.0,F,Sincere,13.46
+209.0,F,Sincere,21.74
+210.0,F,Sincere,15.56
+211.0,F,Sincere,16.36
+212.0,F,Sincere,18.37
+213.0,F,Sincere,17.24
+214.0,H,Sincere,21.28
+215.0,H,Sincere,19.15
+216.0,H,Sincere,17.5
+217.0,H,Sincere,17.02
+218.0,H,Sincere,5.13
+219.0,H,Sincere,16.28
+220.0,H,Sincere,16.67
+221.0,H,Sincere,17.78
+222.0,H,Sincere,19.05
+223.0,H,Sincere,17.39
+224.0,H,Sincere,17.24
+225.0,H,Sincere,14.71
+226.0,H,Sincere,17.95
+227.0,H,Sincere,16.0
+228.0,H,Sincere,18.92
+229.0,H,Sincere,16.67
+230.0,H,Sincere,23.81
+231.0,H,Sincere,20.93
+232.0,H,Sincere,17.78
+233.0,H,Sincere,20.0
+234.0,F,Sincere,20.0
+235.0,F,Sincere,15.0
+236.0,F,Sincere,20.0
+237.0,F,Sincere,20.0
+238.0,F,Sincere,20.0
+239.0,F,Sincere,25.0
+240.0,F,Sincere,30.0
+241.0,F,Sincere,2.0
+242.0,F,Sincere,20.0
+243.0,H,Sincere,20.0
+244.0,H,Sincere,20.0
+245.0,H,Sincere,10.0
+246.0,H,Sincere,20.0
+247.0,H,Sincere,30.0
+248.0,H,Sincere,15.0
+249.0,H,Sincere,22.0
+250.0,H,Sincere,20.0
+251.0,H,Sincere,19.0
+252.0,F,Sincere,25.0
+253.0,F,Sincere,30.0
+254.0,F,Sincere,7.0
+255.0,F,Sincere,16.67
+256.0,F,Sincere,25.0
+257.0,F,Sincere,14.0
+258.0,F,Sincere,35.0
+259.0,F,Sincere,18.0
+260.0,F,Sincere,20.0
+261.0,F,Sincere,20.0
+262.0,F,Sincere,40.0
+263.0,F,Sincere,20.0
+264.0,F,Sincere,15.0
+265.0,F,Sincere,5.0
+266.0,F,Sincere,20.0
+267.0,F,Sincere,30.0
+268.0,F,Sincere,20.0
+269.0,F,Sincere,10.0
+270.0,F,Sincere,16.0
+271.0,F,Sincere,15.0
+272.0,F,Sincere,20.0
+273.0,H,Sincere,25.0
+274.0,H,Sincere,10.0
+275.0,H,Sincere,10.0
+276.0,H,Sincere,16.0
+277.0,H,Sincere,20.0
+278.0,H,Sincere,15.0
+279.0,H,Sincere,15.0
+280.0,H,Sincere,20.0
+281.0,H,Sincere,20.0
+282.0,H,Sincere,15.0
+283.0,H,Sincere,10.0
+284.0,H,Sincere,20.0
+285.0,H,Sincere,20.0
+286.0,H,Sincere,15.0
+287.0,H,Sincere,40.0
+288.0,H,Sincere,20.0
+289.0,H,Sincere,30.0
+290.0,H,Sincere,10.0
+291.0,H,Sincere,20.0
+292.0,H,Sincere,18.0
+293.0,H,Sincere,18.0
+294.0,F,Sincere,20.0
+295.0,F,Sincere,18.0
+296.0,F,Sincere,20.0
+297.0,F,Sincere,25.0
+298.0,F,Sincere,30.0
+299.0,F,Sincere,40.0
+300.0,F,Sincere,20.0
+301.0,F,Sincere,20.0
+302.0,F,Sincere,5.0
+303.0,F,Sincere,25.0
+304.0,F,Sincere,20.0
+305.0,F,Sincere,47.0
+306.0,F,Sincere,20.0
+307.0,F,Sincere,20.0
+308.0,H,Sincere,19.0
+309.0,H,Sincere,20.0
+310.0,H,Sincere,15.0
+311.0,H,Sincere,20.0
+312.0,H,Sincere,5.0
+313.0,H,Sincere,13.0
+314.0,H,Sincere,10.0
+315.0,H,Sincere,19.05
+316.0,H,Sincere,20.0
+317.0,H,Sincere,0.0
+318.0,H,Sincere,30.0
+319.0,H,Sincere,25.0
+320.0,H,Sincere,16.0
+321.0,H,Sincere,15.0
+322.0,F,Sincere,60.0
+323.0,F,Sincere,20.0
+324.0,F,Sincere,10.0
+325.0,F,Sincere,20.0
+326.0,F,Sincere,15.0
+327.0,F,Sincere,10.0
+328.0,F,Sincere,12.0
+329.0,F,Sincere,22.0
+330.0,F,Sincere,25.0
+331.0,F,Sincere,15.0
+332.0,H,Sincere,10.0
+333.0,H,Sincere,5.0
+334.0,H,Sincere,10.0
+335.0,H,Sincere,10.0
+336.0,H,Sincere,15.0
+337.0,H,Sincere,17.0
+338.0,H,Sincere,20.0
+339.0,H,Sincere,
+340.0,H,Sincere,
+341.0,F,Sincere,20.0
+342.0,F,Sincere,15.0
+343.0,F,Sincere,25.0
+344.0,F,Sincere,15.0
+345.0,F,Sincere,20.0
+346.0,F,Sincere,
+347.0,F,Sincere,5.0
+348.0,F,Sincere,25.0
+349.0,F,Sincere,20.0
+350.0,F,Sincere,25.0
+351.0,F,Sincere,15.0
+352.0,F,Sincere,20.0
+353.0,F,Sincere,10.0
+354.0,F,Sincere,10.0
+355.0,F,Sincere,20.0
+356.0,F,Sincere,25.0
+357.0,F,Sincere,20.0
+358.0,F,Sincere,10.0
+359.0,F,Sincere,17.0
+360.0,F,Sincere,30.0
+361.0,H,Sincere,20.0
+362.0,H,Sincere,14.53
+363.0,H,Sincere,20.0
+364.0,H,Sincere,25.0
+365.0,H,Sincere,10.53
+366.0,H,Sincere,18.0
+367.0,H,Sincere,15.0
+368.0,H,Sincere,10.0
+369.0,H,Sincere,18.0
+370.0,H,Sincere,10.0
+371.0,H,Sincere,0.0
+372.0,H,Sincere,15.0
+373.0,H,Sincere,5.0
+374.0,H,Sincere,10.0
+375.0,H,Sincere,20.0
+376.0,H,Sincere,10.0
+377.0,H,Sincere,20.0
+378.0,H,Sincere,15.0
+379.0,F,Sincere,15.0
+380.0,F,Sincere,20.0
+381.0,F,Sincere,10.0
+382.0,F,Sincere,25.0
+383.0,F,Sincere,20.0
+384.0,F,Sincere,20.0
+385.0,F,Sincere,20.0
+386.0,F,Sincere,10.0
+387.0,F,Sincere,15.0
+388.0,F,Sincere,17.0
+389.0,F,Sincere,30.0
+390.0,F,Sincere,20.0
+391.0,F,Sincere,0.0
+392.0,F,Sincere,20.0
+393.0,F,Sincere,20.0
+394.0,F,Sincere,19.0
+395.0,F,Sincere,20.0
+396.0,F,Sincere,18.0
+397.0,H,Sincere,21.0
+398.0,H,Sincere,10.0
+399.0,H,Sincere,10.0
+400.0,H,Sincere,5.0
+401.0,H,Sincere,0.0
+402.0,H,Sincere,20.0
+403.0,H,Sincere,25.0
+404.0,H,Sincere,14.0
+405.0,H,Sincere,25.0
+406.0,H,Sincere,20.0
+407.0,H,Sincere,15.0
+408.0,H,Sincere,10.0
+409.0,H,Sincere,15.0
+410.0,H,Sincere,20.0
+411.0,H,Sincere,15.0
+412.0,H,Sincere,5.0
+413.0,H,Sincere,10.0
+414.0,H,Sincere,1.0
+415.0,H,Sincere,20.0
+416.0,F,Sincere,20.0
+417.0,F,Sincere,20.0
+418.0,F,Sincere,25.0
+419.0,F,Sincere,30.0
+420.0,F,Sincere,10.0
+421.0,F,Sincere,10.0
+422.0,H,Sincere,25.0
+423.0,H,Sincere,20.0
+424.0,H,Sincere,16.0
+425.0,H,Sincere,25.0
+426.0,H,Sincere,7.0
+427.0,H,Sincere,20.0
+428.0,H,Sincere,10.0
+429.0,H,Sincere,10.0
+430.0,F,Sincere,25.0
+431.0,F,Sincere,15.0
+432.0,F,Sincere,30.0
+433.0,F,Sincere,20.0
+434.0,F,Sincere,15.0
+435.0,F,Sincere,5.0
+436.0,F,Sincere,8.0
+437.0,F,Sincere,15.0
+438.0,F,Sincere,15.0
+439.0,F,Sincere,10.0
+440.0,H,Sincere,5.0
+441.0,H,Sincere,10.0
+442.0,H,Sincere,10.0
+443.0,H,Sincere,25.0
+444.0,H,Sincere,10.0
+445.0,H,Sincere,12.0
+446.0,H,Sincere,20.0
+447.0,H,Sincere,30.0
+448.0,H,Sincere,15.0
+449.0,H,Sincere,2.0
+450.0,H,Sincere,5.0
+451.0,H,Sincere,40.0
+452.0,H,Sincere,30.0
+453.0,H,Sincere,30.0
+454.0,F,Sincere,20.0
+455.0,F,Sincere,25.0
+456.0,F,Sincere,20.0
+457.0,F,Sincere,0.0
+458.0,F,Sincere,5.0
+459.0,F,Sincere,10.0
+460.0,H,Sincere,10.0
+461.0,H,Sincere,20.0
+462.0,H,Sincere,30.0
+463.0,H,Sincere,15.0
+464.0,H,Sincere,15.0
+465.0,H,Sincere,20.0
+466.0,F,Sincere,20.0
+467.0,F,Sincere,20.0
+468.0,F,Sincere,25.0
+469.0,F,Sincere,10.0
+470.0,F,Sincere,20.0
+471.0,F,Sincere,15.0
+472.0,F,Sincere,25.0
+473.0,F,Sincere,20.0
+474.0,F,Sincere,20.0
+475.0,F,Sincere,15.0
+476.0,F,Sincere,20.0
+477.0,F,Sincere,19.0
+478.0,F,Sincere,20.0
+479.0,F,Sincere,15.0
+480.0,F,Sincere,18.0
+481.0,H,Sincere,20.0
+482.0,H,Sincere,10.0
+483.0,H,Sincere,20.0
+484.0,H,Sincere,16.0
+485.0,H,Sincere,15.0
+486.0,H,Sincere,20.0
+487.0,H,Sincere,26.0
+488.0,H,Sincere,20.0
+489.0,H,Sincere,10.0
+490.0,H,Sincere,15.0
+491.0,H,Sincere,10.0
+492.0,H,Sincere,0.0
+493.0,H,Sincere,10.0
+494.0,H,Sincere,25.0
+495.0,H,Sincere,20.0
+496.0,F,Sincere,30.0
+497.0,F,Sincere,20.0
+498.0,F,Sincere,18.0
+499.0,F,Sincere,19.0
+500.0,F,Sincere,15.0
+501.0,F,Sincere,10.0
+502.0,H,Sincere,20.0
+503.0,H,Sincere,30.0
+504.0,H,Sincere,0.0
+505.0,H,Sincere,14.0
+506.0,H,Sincere,15.0
+507.0,H,Sincere,20.0
+508.0,H,Sincere,10.0
+509.0,F,Sincere,20.0
+510.0,F,Sincere,25.0
+511.0,F,Sincere,10.0
+512.0,F,Sincere,20.0
+513.0,F,Sincere,20.0
+514.0,F,Sincere,20.0
+515.0,F,Sincere,20.0
+516.0,F,Sincere,5.0
+517.0,F,Sincere,20.0
+518.0,F,Sincere,25.0
+519.0,F,Sincere,5.0
+520.0,F,Sincere,15.0
+521.0,F,Sincere,30.0
+522.0,F,Sincere,20.0
+523.0,F,Sincere,25.0
+524.0,F,Sincere,20.0
+525.0,F,Sincere,15.0
+526.0,F,Sincere,10.0
+527.0,F,Sincere,20.0
+528.0,F,Sincere,10.0
+529.0,F,Sincere,25.0
+530.0,F,Sincere,20.0
+531.0,H,Sincere,30.0
+532.0,H,Sincere,20.0
+533.0,H,Sincere,25.0
+534.0,H,Sincere,30.0
+535.0,H,Sincere,14.0
+536.0,H,Sincere,20.0
+537.0,H,Sincere,5.0
+538.0,H,Sincere,0.0
+539.0,H,Sincere,10.0
+540.0,H,Sincere,15.0
+541.0,H,Sincere,30.0
+542.0,H,Sincere,15.0
+543.0,H,Sincere,16.0
+544.0,H,Sincere,25.0
+545.0,H,Sincere,20.0
+546.0,H,Sincere,10.0
+547.0,H,Sincere,20.0
+548.0,H,Sincere,10.0
+549.0,H,Sincere,20.0
+550.0,H,Sincere,3.0
+551.0,H,Sincere,20.0
+552.0,H,Sincere,0.0
+,F,Sincere,
+1.0,F,Intelligent,20.0
+2.0,F,Intelligent,25.0
+3.0,F,Intelligent,35.0
+4.0,F,Intelligent,20.0
+5.0,F,Intelligent,25.0
+6.0,F,Intelligent,20.0
+7.0,F,Intelligent,25.0
+8.0,F,Intelligent,27.27
+9.0,F,Intelligent,20.0
+10.0,F,Intelligent,15.0
+11.0,H,Intelligent,20.0
+12.0,H,Intelligent,0.0
+13.0,H,Intelligent,19.0
+14.0,H,Intelligent,15.0
+15.0,H,Intelligent,20.0
+16.0,H,Intelligent,30.0
+17.0,H,Intelligent,25.0
+18.0,H,Intelligent,11.11
+19.0,H,Intelligent,25.0
+20.0,H,Intelligent,0.0
+21.0,F,Intelligent,20.0
+22.0,F,Intelligent,20.0
+23.0,F,Intelligent,40.0
+24.0,F,Intelligent,20.0
+25.0,F,Intelligent,15.0
+26.0,F,Intelligent,20.0
+27.0,F,Intelligent,18.0
+28.0,F,Intelligent,
+29.0,F,Intelligent,18.0
+30.0,F,Intelligent,20.0
+31.0,F,Intelligent,20.0
+32.0,F,Intelligent,50.0
+33.0,F,Intelligent,30.0
+34.0,F,Intelligent,30.0
+35.0,F,Intelligent,23.0
+36.0,F,Intelligent,20.0
+37.0,F,Intelligent,30.0
+38.0,F,Intelligent,20.0
+39.0,F,Intelligent,20.0
+40.0,H,Intelligent,25.0
+41.0,H,Intelligent,10.0
+42.0,H,Intelligent,20.0
+43.0,H,Intelligent,30.0
+44.0,H,Intelligent,25.0
+45.0,H,Intelligent,25.0
+46.0,H,Intelligent,20.0
+47.0,H,Intelligent,25.0
+48.0,H,Intelligent,25.0
+49.0,H,Intelligent,20.0
+50.0,H,Intelligent,20.0
+51.0,H,Intelligent,35.0
+52.0,H,Intelligent,15.0
+53.0,H,Intelligent,20.0
+54.0,H,Intelligent,20.0
+55.0,H,Intelligent,25.0
+56.0,F,Intelligent,18.0
+57.0,F,Intelligent,20.0
+58.0,F,Intelligent,
+59.0,F,Intelligent,
+60.0,F,Intelligent,25.0
+61.0,F,Intelligent,20.0
+62.0,F,Intelligent,20.0
+63.0,F,Intelligent,45.0
+64.0,F,Intelligent,25.0
+65.0,F,Intelligent,17.0
+66.0,H,Intelligent,15.0
+67.0,H,Intelligent,20.0
+68.0,H,Intelligent,22.0
+69.0,H,Intelligent,30.0
+70.0,H,Intelligent,20.0
+71.0,H,Intelligent,0.0
+72.0,H,Intelligent,19.0
+73.0,H,Intelligent,20.0
+74.0,H,Intelligent,30.0
+75.0,H,Intelligent,20.0
+76.0,F,Intelligent,30.0
+77.0,F,Intelligent,20.0
+78.0,F,Intelligent,20.0
+79.0,F,Intelligent,15.0
+80.0,F,Intelligent,20.0
+81.0,F,Intelligent,20.0
+82.0,F,Intelligent,20.0
+83.0,F,Intelligent,20.0
+84.0,F,Intelligent,30.0
+85.0,F,Intelligent,15.0
+86.0,F,Intelligent,20.0
+87.0,F,Intelligent,20.0
+88.0,F,Intelligent,20.0
+89.0,F,Intelligent,20.0
+90.0,F,Intelligent,18.0
+91.0,F,Intelligent,50.0
+92.0,F,Intelligent,20.0
+93.0,F,Intelligent,18.0
+94.0,H,Intelligent,20.0
+95.0,H,Intelligent,18.0
+96.0,H,Intelligent,20.0
+97.0,H,Intelligent,20.0
+98.0,H,Intelligent,15.0
+99.0,H,Intelligent,20.0
+100.0,H,Intelligent,25.0
+101.0,H,Intelligent,10.0
+102.0,H,Intelligent,30.0
+103.0,H,Intelligent,20.0
+104.0,H,Intelligent,25.0
+105.0,H,Intelligent,20.0
+106.0,H,Intelligent,35.0
+107.0,H,Intelligent,21.0
+108.0,H,Intelligent,35.0
+109.0,H,Intelligent,30.0
+110.0,H,Intelligent,15.0
+111.0,H,Intelligent,20.0
+112.0,F,Intelligent,20.0
+113.0,F,Intelligent,25.0
+114.0,F,Intelligent,20.0
+115.0,F,Intelligent,30.0
+116.0,F,Intelligent,25.0
+117.0,F,Intelligent,20.0
+119.0,F,Intelligent,10.0
+120.0,F,Intelligent,35.0
+121.0,F,Intelligent,5.0
+122.0,H,Intelligent,10.0
+123.0,H,Intelligent,20.0
+124.0,H,Intelligent,10.0
+125.0,H,Intelligent,20.0
+126.0,H,Intelligent,15.0
+127.0,H,Intelligent,25.0
+128.0,H,Intelligent,10.0
+129.0,H,Intelligent,20.0
+130.0,H,Intelligent,10.0
+131.0,H,Intelligent,20.0
+132.0,F,Intelligent,16.67
+133.0,F,Intelligent,17.02
+134.0,F,Intelligent,20.0
+135.0,F,Intelligent,18.18
+136.0,F,Intelligent,
+137.0,H,Intelligent,15.22
+138.0,H,Intelligent,20.0
+139.0,H,Intelligent,18.75
+140.0,H,Intelligent,18.6
+141.0,H,Intelligent,16.67
+142.0,F,Intelligent,21.43
+143.0,F,Intelligent,20.83
+144.0,F,Intelligent,16.0
+145.0,F,Intelligent,22.73
+146.0,F,Intelligent,18.18
+147.0,F,Intelligent,20.0
+148.0,F,Intelligent,16.98
+149.0,F,Intelligent,19.15
+150.0,F,Intelligent,20.0
+151.0,F,Intelligent,18.18
+152.0,F,Intelligent,20.0
+153.0,F,Intelligent,19.51
+154.0,F,Intelligent,17.31
+155.0,F,Intelligent,18.87
+156.0,F,Intelligent,16.0
+157.0,F,Intelligent,16.33
+158.0,H,Intelligent,19.05
+159.0,H,Intelligent,20.45
+160.0,H,Intelligent,18.0
+161.0,H,Intelligent,18.75
+162.0,H,Intelligent,19.57
+163.0,H,Intelligent,20.0
+164.0,H,Intelligent,20.51
+165.0,H,Intelligent,20.83
+166.0,H,Intelligent,19.44
+167.0,H,Intelligent,18.6
+168.0,H,Intelligent,17.78
+169.0,H,Intelligent,17.78
+170.0,H,Intelligent,18.6
+171.0,H,Intelligent,19.57
+172.0,H,Intelligent,22.22
+173.0,H,Intelligent,20.41
+174.0,F,Intelligent,16.67
+175.0,F,Intelligent,16.33
+176.0,F,Intelligent,19.57
+177.0,F,Intelligent,16.98
+178.0,F,Intelligent,17.39
+179.0,F,Intelligent,17.02
+180.0,F,Intelligent,17.31
+181.0,F,Intelligent,19.23
+182.0,F,Intelligent,17.86
+183.0,F,Intelligent,17.5
+184.0,H,Intelligent,16.67
+185.0,H,Intelligent,16.98
+186.0,H,Intelligent,22.22
+187.0,H,Intelligent,18.87
+188.0,H,Intelligent,22.22
+189.0,H,Intelligent,16.98
+190.0,H,Intelligent,20.0
+191.0,H,Intelligent,20.45
+192.0,H,Intelligent,15.22
+193.0,H,Intelligent,23.26
+194.0,F,Intelligent,20.0
+195.0,F,Intelligent,19.23
+196.0,F,Intelligent,17.65
+197.0,F,Intelligent,20.0
+198.0,F,Intelligent,17.31
+199.0,F,Intelligent,20.0
+200.0,F,Intelligent,18.87
+201.0,F,Intelligent,17.31
+202.0,F,Intelligent,19.23
+203.0,F,Intelligent,18.0
+204.0,F,Intelligent,17.65
+205.0,F,Intelligent,19.23
+206.0,F,Intelligent,20.83
+207.0,F,Intelligent,17.31
+208.0,F,Intelligent,19.23
+209.0,F,Intelligent,17.39
+210.0,F,Intelligent,20.0
+211.0,F,Intelligent,18.18
+212.0,F,Intelligent,18.37
+213.0,F,Intelligent,17.24
+214.0,H,Intelligent,17.02
+215.0,H,Intelligent,21.28
+216.0,H,Intelligent,20.0
+217.0,H,Intelligent,21.28
+218.0,H,Intelligent,23.08
+219.0,H,Intelligent,18.6
+220.0,H,Intelligent,16.67
+221.0,H,Intelligent,17.78
+222.0,H,Intelligent,23.81
+223.0,H,Intelligent,19.57
+224.0,H,Intelligent,17.24
+225.0,H,Intelligent,14.71
+226.0,H,Intelligent,15.38
+227.0,H,Intelligent,18.0
+228.0,H,Intelligent,21.62
+229.0,H,Intelligent,21.43
+230.0,H,Intelligent,23.81
+231.0,H,Intelligent,23.26
+232.0,H,Intelligent,17.78
+233.0,H,Intelligent,18.0
+234.0,F,Intelligent,20.0
+235.0,F,Intelligent,20.0
+236.0,F,Intelligent,15.0
+237.0,F,Intelligent,20.0
+238.0,F,Intelligent,20.0
+239.0,F,Intelligent,20.0
+240.0,F,Intelligent,30.0
+241.0,F,Intelligent,2.0
+242.0,F,Intelligent,25.0
+243.0,H,Intelligent,20.0
+244.0,H,Intelligent,20.0
+245.0,H,Intelligent,30.0
+246.0,H,Intelligent,10.0
+247.0,H,Intelligent,10.0
+248.0,H,Intelligent,20.0
+249.0,H,Intelligent,15.0
+250.0,H,Intelligent,20.0
+251.0,H,Intelligent,19.0
+252.0,F,Intelligent,25.0
+253.0,F,Intelligent,10.0
+254.0,F,Intelligent,25.0
+255.0,F,Intelligent,16.67
+256.0,F,Intelligent,20.0
+257.0,F,Intelligent,30.0
+258.0,F,Intelligent,20.0
+259.0,F,Intelligent,19.0
+260.0,F,Intelligent,19.0
+261.0,F,Intelligent,20.0
+262.0,F,Intelligent,20.0
+263.0,F,Intelligent,20.0
+264.0,F,Intelligent,25.0
+265.0,F,Intelligent,45.0
+266.0,F,Intelligent,20.0
+267.0,F,Intelligent,10.0
+268.0,F,Intelligent,20.0
+269.0,F,Intelligent,30.0
+270.0,F,Intelligent,19.0
+271.0,F,Intelligent,40.0
+272.0,F,Intelligent,25.0
+273.0,H,Intelligent,18.0
+274.0,H,Intelligent,20.0
+275.0,H,Intelligent,25.0
+276.0,H,Intelligent,28.0
+277.0,H,Intelligent,0.0
+278.0,H,Intelligent,20.0
+279.0,H,Intelligent,28.0
+280.0,H,Intelligent,30.0
+281.0,H,Intelligent,20.0
+282.0,H,Intelligent,20.0
+283.0,H,Intelligent,10.0
+284.0,H,Intelligent,25.0
+285.0,H,Intelligent,25.0
+286.0,H,Intelligent,25.0
+287.0,H,Intelligent,5.0
+288.0,H,Intelligent,15.0
+289.0,H,Intelligent,10.0
+290.0,H,Intelligent,30.0
+291.0,H,Intelligent,15.0
+292.0,H,Intelligent,20.0
+293.0,H,Intelligent,21.0
+294.0,F,Intelligent,35.0
+295.0,F,Intelligent,20.0
+296.0,F,Intelligent,35.0
+297.0,F,Intelligent,15.0
+298.0,F,Intelligent,20.0
+299.0,F,Intelligent,10.0
+300.0,F,Intelligent,25.0
+301.0,F,Intelligent,20.0
+302.0,F,Intelligent,20.0
+303.0,F,Intelligent,25.0
+304.0,F,Intelligent,25.0
+305.0,F,Intelligent,16.0
+306.0,F,Intelligent,19.0
+307.0,F,Intelligent,20.0
+308.0,H,Intelligent,18.0
+309.0,H,Intelligent,20.0
+310.0,H,Intelligent,20.0
+311.0,H,Intelligent,10.0
+312.0,H,Intelligent,30.0
+313.0,H,Intelligent,18.0
+314.0,H,Intelligent,30.0
+315.0,H,Intelligent,42.86
+316.0,H,Intelligent,15.0
+317.0,H,Intelligent,20.0
+318.0,H,Intelligent,10.0
+319.0,H,Intelligent,20.0
+320.0,H,Intelligent,16.0
+321.0,H,Intelligent,15.0
+322.0,F,Intelligent,15.0
+323.0,F,Intelligent,20.0
+324.0,F,Intelligent,15.0
+325.0,F,Intelligent,20.0
+326.0,F,Intelligent,15.0
+327.0,F,Intelligent,20.0
+328.0,F,Intelligent,30.0
+329.0,F,Intelligent,22.0
+330.0,F,Intelligent,15.0
+331.0,F,Intelligent,10.0
+332.0,H,Intelligent,10.0
+333.0,H,Intelligent,15.0
+334.0,H,Intelligent,15.0
+335.0,H,Intelligent,20.0
+336.0,H,Intelligent,30.0
+337.0,H,Intelligent,17.0
+338.0,H,Intelligent,25.0
+339.0,H,Intelligent,
+340.0,H,Intelligent,
+341.0,F,Intelligent,20.0
+342.0,F,Intelligent,25.0
+343.0,F,Intelligent,20.0
+344.0,F,Intelligent,15.0
+345.0,F,Intelligent,27.0
+346.0,F,Intelligent,
+347.0,F,Intelligent,10.0
+348.0,F,Intelligent,15.0
+349.0,F,Intelligent,10.0
+350.0,F,Intelligent,25.0
+351.0,F,Intelligent,30.0
+352.0,F,Intelligent,20.0
+353.0,F,Intelligent,25.0
+354.0,F,Intelligent,20.0
+355.0,F,Intelligent,10.0
+356.0,F,Intelligent,20.0
+357.0,F,Intelligent,20.0
+358.0,F,Intelligent,25.0
+359.0,F,Intelligent,23.0
+360.0,F,Intelligent,10.0
+361.0,H,Intelligent,30.0
+362.0,H,Intelligent,24.79
+363.0,H,Intelligent,20.0
+364.0,H,Intelligent,25.0
+365.0,H,Intelligent,15.79
+366.0,H,Intelligent,17.0
+367.0,H,Intelligent,20.0
+368.0,H,Intelligent,25.0
+369.0,H,Intelligent,28.0
+370.0,H,Intelligent,10.0
+371.0,H,Intelligent,10.0
+372.0,H,Intelligent,15.0
+373.0,H,Intelligent,5.0
+374.0,H,Intelligent,10.0
+375.0,H,Intelligent,15.0
+376.0,H,Intelligent,15.0
+377.0,H,Intelligent,10.0
+378.0,H,Intelligent,20.0
+379.0,F,Intelligent,20.0
+380.0,F,Intelligent,20.0
+381.0,F,Intelligent,20.0
+382.0,F,Intelligent,25.0
+383.0,F,Intelligent,10.0
+384.0,F,Intelligent,20.0
+385.0,F,Intelligent,20.0
+386.0,F,Intelligent,30.0
+387.0,F,Intelligent,25.0
+388.0,F,Intelligent,15.0
+389.0,F,Intelligent,20.0
+390.0,F,Intelligent,20.0
+391.0,F,Intelligent,35.0
+392.0,F,Intelligent,15.0
+393.0,F,Intelligent,25.0
+394.0,F,Intelligent,16.0
+395.0,F,Intelligent,20.0
+396.0,F,Intelligent,18.0
+397.0,H,Intelligent,21.0
+398.0,H,Intelligent,10.0
+399.0,H,Intelligent,20.0
+400.0,H,Intelligent,20.0
+401.0,H,Intelligent,25.0
+402.0,H,Intelligent,15.0
+403.0,H,Intelligent,20.0
+404.0,H,Intelligent,25.0
+405.0,H,Intelligent,20.0
+406.0,H,Intelligent,20.0
+407.0,H,Intelligent,15.0
+408.0,H,Intelligent,20.0
+409.0,H,Intelligent,20.0
+410.0,H,Intelligent,20.0
+411.0,H,Intelligent,15.0
+412.0,H,Intelligent,5.0
+413.0,H,Intelligent,30.0
+414.0,H,Intelligent,1.0
+415.0,H,Intelligent,40.0
+416.0,F,Intelligent,30.0
+417.0,F,Intelligent,20.0
+418.0,F,Intelligent,20.0
+419.0,F,Intelligent,20.0
+420.0,F,Intelligent,40.0
+421.0,F,Intelligent,30.0
+422.0,H,Intelligent,20.0
+423.0,H,Intelligent,30.0
+424.0,H,Intelligent,17.0
+425.0,H,Intelligent,20.0
+426.0,H,Intelligent,35.0
+427.0,H,Intelligent,20.0
+428.0,H,Intelligent,10.0
+429.0,H,Intelligent,15.0
+430.0,F,Intelligent,15.0
+431.0,F,Intelligent,25.0
+432.0,F,Intelligent,30.0
+433.0,F,Intelligent,20.0
+434.0,F,Intelligent,15.0
+435.0,F,Intelligent,20.0
+436.0,F,Intelligent,17.0
+437.0,F,Intelligent,18.0
+438.0,F,Intelligent,16.0
+439.0,F,Intelligent,50.0
+440.0,H,Intelligent,30.0
+441.0,H,Intelligent,25.0
+442.0,H,Intelligent,0.0
+443.0,H,Intelligent,10.0
+444.0,H,Intelligent,10.0
+445.0,H,Intelligent,18.0
+446.0,H,Intelligent,25.0
+447.0,H,Intelligent,25.0
+448.0,H,Intelligent,25.0
+449.0,H,Intelligent,1.0
+450.0,H,Intelligent,5.0
+451.0,H,Intelligent,5.0
+452.0,H,Intelligent,25.0
+453.0,H,Intelligent,30.0
+454.0,F,Intelligent,20.0
+455.0,F,Intelligent,20.0
+456.0,F,Intelligent,15.0
+457.0,F,Intelligent,25.0
+458.0,F,Intelligent,25.0
+459.0,F,Intelligent,10.0
+460.0,H,Intelligent,20.0
+461.0,H,Intelligent,20.0
+462.0,H,Intelligent,10.0
+463.0,H,Intelligent,15.0
+464.0,H,Intelligent,15.0
+465.0,H,Intelligent,20.0
+466.0,F,Intelligent,20.0
+467.0,F,Intelligent,20.0
+468.0,F,Intelligent,15.0
+469.0,F,Intelligent,20.0
+470.0,F,Intelligent,25.0
+471.0,F,Intelligent,25.0
+472.0,F,Intelligent,25.0
+473.0,F,Intelligent,20.0
+474.0,F,Intelligent,10.0
+475.0,F,Intelligent,30.0
+476.0,F,Intelligent,20.0
+477.0,F,Intelligent,16.0
+478.0,F,Intelligent,10.0
+479.0,F,Intelligent,20.0
+480.0,F,Intelligent,18.0
+481.0,H,Intelligent,15.0
+482.0,H,Intelligent,22.0
+483.0,H,Intelligent,20.0
+484.0,H,Intelligent,20.0
+485.0,H,Intelligent,20.0
+486.0,H,Intelligent,20.0
+487.0,H,Intelligent,15.0
+488.0,H,Intelligent,20.0
+489.0,H,Intelligent,20.0
+490.0,H,Intelligent,20.0
+491.0,H,Intelligent,25.0
+492.0,H,Intelligent,30.0
+493.0,H,Intelligent,10.0
+494.0,H,Intelligent,25.0
+495.0,H,Intelligent,20.0
+496.0,F,Intelligent,20.0
+497.0,F,Intelligent,20.0
+498.0,F,Intelligent,18.0
+499.0,F,Intelligent,19.0
+500.0,F,Intelligent,35.0
+501.0,F,Intelligent,20.0
+502.0,H,Intelligent,20.0
+503.0,H,Intelligent,40.0
+504.0,H,Intelligent,30.0
+505.0,H,Intelligent,18.0
+506.0,H,Intelligent,20.0
+507.0,H,Intelligent,20.0
+508.0,H,Intelligent,18.0
+509.0,F,Intelligent,30.0
+510.0,F,Intelligent,25.0
+511.0,F,Intelligent,10.0
+512.0,F,Intelligent,20.0
+513.0,F,Intelligent,20.0
+514.0,F,Intelligent,20.0
+515.0,F,Intelligent,20.0
+516.0,F,Intelligent,8.0
+517.0,F,Intelligent,20.0
+518.0,F,Intelligent,25.0
+519.0,F,Intelligent,30.0
+520.0,F,Intelligent,25.0
+521.0,F,Intelligent,20.0
+522.0,F,Intelligent,15.0
+523.0,F,Intelligent,20.0
+524.0,F,Intelligent,25.0
+525.0,F,Intelligent,30.0
+526.0,F,Intelligent,30.0
+527.0,F,Intelligent,10.0
+528.0,F,Intelligent,30.0
+529.0,F,Intelligent,25.0
+530.0,F,Intelligent,10.0
+531.0,H,Intelligent,20.0
+532.0,H,Intelligent,20.0
+533.0,H,Intelligent,25.0
+534.0,H,Intelligent,30.0
+535.0,H,Intelligent,19.0
+536.0,H,Intelligent,20.0
+537.0,H,Intelligent,25.0
+538.0,H,Intelligent,10.0
+539.0,H,Intelligent,20.0
+540.0,H,Intelligent,20.0
+541.0,H,Intelligent,0.0
+542.0,H,Intelligent,20.0
+543.0,H,Intelligent,16.0
+544.0,H,Intelligent,20.0
+545.0,H,Intelligent,20.0
+546.0,H,Intelligent,20.0
+547.0,H,Intelligent,20.0
+548.0,H,Intelligent,20.0
+549.0,H,Intelligent,20.0
+550.0,H,Intelligent,30.0
+551.0,H,Intelligent,20.0
+552.0,H,Intelligent,15.0
+,F,Intelligent,
+1.0,F,Fun,15.0
+2.0,F,Fun,20.0
+3.0,F,Fun,10.0
+4.0,F,Fun,20.0
+5.0,F,Fun,25.0
+6.0,F,Fun,25.0
+7.0,F,Fun,20.0
+8.0,F,Fun,18.18
+9.0,F,Fun,30.0
+10.0,F,Fun,40.0
+11.0,H,Fun,20.0
+12.0,H,Fun,40.0
+13.0,H,Fun,18.0
+14.0,H,Fun,40.0
+15.0,H,Fun,10.0
+16.0,H,Fun,10.0
+17.0,H,Fun,10.0
+18.0,H,Fun,11.11
+19.0,H,Fun,10.0
+20.0,H,Fun,0.0
+21.0,F,Fun,16.0
+22.0,F,Fun,10.0
+23.0,F,Fun,10.0
+24.0,F,Fun,15.0
+25.0,F,Fun,15.0
+26.0,F,Fun,15.0
+27.0,F,Fun,20.0
+28.0,F,Fun,
+29.0,F,Fun,15.0
+30.0,F,Fun,20.0
+31.0,F,Fun,20.0
+32.0,F,Fun,0.0
+33.0,F,Fun,10.0
+34.0,F,Fun,15.0
+35.0,F,Fun,22.0
+36.0,F,Fun,15.0
+37.0,F,Fun,25.0
+38.0,F,Fun,10.0
+39.0,F,Fun,15.0
+40.0,H,Fun,20.0
+41.0,H,Fun,30.0
+42.0,H,Fun,15.0
+43.0,H,Fun,10.0
+44.0,H,Fun,25.0
+45.0,H,Fun,15.0
+46.0,H,Fun,10.0
+47.0,H,Fun,25.0
+48.0,H,Fun,25.0
+49.0,H,Fun,20.0
+50.0,H,Fun,15.0
+51.0,H,Fun,15.0
+52.0,H,Fun,30.0
+53.0,H,Fun,10.0
+54.0,H,Fun,20.0
+55.0,H,Fun,10.0
+56.0,F,Fun,15.0
+57.0,F,Fun,20.0
+58.0,F,Fun,
+59.0,F,Fun,
+60.0,F,Fun,15.0
+61.0,F,Fun,15.0
+62.0,F,Fun,20.0
+63.0,F,Fun,25.0
+64.0,F,Fun,10.0
+65.0,F,Fun,17.0
+66.0,H,Fun,15.0
+67.0,H,Fun,20.0
+68.0,H,Fun,20.0
+69.0,H,Fun,10.0
+70.0,H,Fun,20.0
+71.0,H,Fun,15.0
+72.0,H,Fun,20.0
+73.0,H,Fun,30.0
+74.0,H,Fun,30.0
+75.0,H,Fun,20.0
+76.0,F,Fun,20.0
+77.0,F,Fun,20.0
+78.0,F,Fun,10.0
+79.0,F,Fun,20.0
+80.0,F,Fun,10.0
+81.0,F,Fun,20.0
+82.0,F,Fun,20.0
+83.0,F,Fun,12.0
+84.0,F,Fun,5.0
+85.0,F,Fun,15.0
+86.0,F,Fun,20.0
+87.0,F,Fun,15.0
+88.0,F,Fun,15.0
+89.0,F,Fun,20.0
+90.0,F,Fun,18.0
+91.0,F,Fun,20.0
+92.0,F,Fun,20.0
+93.0,F,Fun,24.0
+94.0,H,Fun,10.0
+95.0,H,Fun,19.0
+96.0,H,Fun,22.0
+97.0,H,Fun,23.0
+98.0,H,Fun,20.0
+99.0,H,Fun,10.0
+100.0,H,Fun,15.0
+101.0,H,Fun,12.0
+102.0,H,Fun,20.0
+103.0,H,Fun,10.0
+104.0,H,Fun,15.0
+105.0,H,Fun,20.0
+106.0,H,Fun,10.0
+107.0,H,Fun,23.0
+108.0,H,Fun,20.0
+109.0,H,Fun,10.0
+110.0,H,Fun,15.0
+111.0,H,Fun,20.0
+112.0,F,Fun,25.0
+113.0,F,Fun,25.0
+114.0,F,Fun,20.0
+115.0,F,Fun,20.0
+116.0,F,Fun,25.0
+117.0,F,Fun,20.0
+119.0,F,Fun,10.0
+120.0,F,Fun,35.0
+121.0,F,Fun,30.0
+122.0,H,Fun,20.0
+123.0,H,Fun,5.0
+124.0,H,Fun,10.0
+125.0,H,Fun,15.0
+126.0,H,Fun,10.0
+127.0,H,Fun,15.0
+128.0,H,Fun,20.0
+129.0,H,Fun,20.0
+130.0,H,Fun,
+131.0,H,Fun,20.0
+132.0,F,Fun,16.67
+133.0,F,Fun,17.02
+134.0,F,Fun,17.78
+135.0,F,Fun,13.64
+136.0,F,Fun,
+137.0,H,Fun,17.39
+138.0,H,Fun,20.0
+139.0,H,Fun,20.83
+140.0,H,Fun,18.6
+141.0,H,Fun,16.67
+142.0,F,Fun,21.43
+143.0,F,Fun,14.58
+144.0,F,Fun,18.0
+145.0,F,Fun,18.18
+146.0,F,Fun,18.18
+147.0,F,Fun,18.0
+148.0,F,Fun,18.87
+149.0,F,Fun,19.15
+150.0,F,Fun,20.0
+151.0,F,Fun,18.18
+152.0,F,Fun,14.0
+153.0,F,Fun,14.63
+154.0,F,Fun,17.31
+155.0,F,Fun,16.98
+156.0,F,Fun,18.0
+157.0,F,Fun,18.37
+158.0,H,Fun,19.05
+159.0,H,Fun,20.45
+160.0,H,Fun,18.0
+161.0,H,Fun,18.75
+162.0,H,Fun,17.39
+163.0,H,Fun,20.0
+164.0,H,Fun,17.95
+165.0,H,Fun,18.75
+166.0,H,Fun,27.78
+167.0,H,Fun,16.28
+168.0,H,Fun,17.78
+169.0,H,Fun,15.56
+170.0,H,Fun,18.6
+171.0,H,Fun,19.57
+172.0,H,Fun,20.0
+173.0,H,Fun,20.41
+174.0,F,Fun,16.67
+175.0,F,Fun,14.29
+176.0,F,Fun,17.39
+177.0,F,Fun,16.98
+178.0,F,Fun,17.39
+179.0,F,Fun,17.02
+180.0,F,Fun,19.23
+181.0,F,Fun,17.31
+182.0,F,Fun,17.86
+183.0,F,Fun,22.5
+184.0,H,Fun,16.67
+185.0,H,Fun,16.98
+186.0,H,Fun,16.67
+187.0,H,Fun,16.98
+188.0,H,Fun,15.56
+189.0,H,Fun,16.98
+190.0,H,Fun,20.0
+191.0,H,Fun,18.18
+192.0,H,Fun,17.39
+193.0,H,Fun,16.28
+194.0,F,Fun,16.0
+195.0,F,Fun,19.23
+196.0,F,Fun,15.69
+197.0,F,Fun,18.0
+198.0,F,Fun,19.23
+199.0,F,Fun,12.5
+200.0,F,Fun,16.98
+201.0,F,Fun,17.31
+202.0,F,Fun,19.23
+203.0,F,Fun,20.0
+204.0,F,Fun,15.69
+205.0,F,Fun,19.23
+206.0,F,Fun,18.75
+207.0,F,Fun,19.23
+208.0,F,Fun,19.23
+209.0,F,Fun,17.39
+210.0,F,Fun,15.56
+211.0,F,Fun,18.18
+212.0,F,Fun,16.33
+213.0,F,Fun,17.24
+214.0,H,Fun,21.28
+215.0,H,Fun,19.15
+216.0,H,Fun,22.5
+217.0,H,Fun,12.77
+218.0,H,Fun,12.82
+219.0,H,Fun,16.28
+220.0,H,Fun,16.67
+221.0,H,Fun,17.78
+222.0,H,Fun,19.05
+223.0,H,Fun,19.57
+224.0,H,Fun,17.24
+225.0,H,Fun,14.71
+226.0,H,Fun,20.51
+227.0,H,Fun,16.0
+228.0,H,Fun,13.51
+229.0,H,Fun,16.67
+230.0,H,Fun,23.81
+231.0,H,Fun,23.26
+232.0,H,Fun,17.78
+233.0,H,Fun,16.0
+234.0,F,Fun,10.0
+235.0,F,Fun,20.0
+236.0,F,Fun,20.0
+237.0,F,Fun,20.0
+238.0,F,Fun,15.0
+239.0,F,Fun,20.0
+240.0,F,Fun,10.0
+241.0,F,Fun,2.0
+242.0,F,Fun,20.0
+243.0,H,Fun,25.0
+244.0,H,Fun,10.0
+245.0,H,Fun,10.0
+246.0,H,Fun,20.0
+247.0,H,Fun,15.0
+248.0,H,Fun,20.0
+249.0,H,Fun,15.0
+250.0,H,Fun,20.0
+251.0,H,Fun,19.0
+252.0,F,Fun,25.0
+253.0,F,Fun,10.0
+254.0,F,Fun,25.0
+255.0,F,Fun,16.67
+256.0,F,Fun,20.0
+257.0,F,Fun,10.0
+258.0,F,Fun,20.0
+259.0,F,Fun,19.0
+260.0,F,Fun,14.0
+261.0,F,Fun,20.0
+262.0,F,Fun,20.0
+263.0,F,Fun,10.0
+264.0,F,Fun,20.0
+265.0,F,Fun,10.0
+266.0,F,Fun,25.0
+267.0,F,Fun,15.0
+268.0,F,Fun,10.0
+269.0,F,Fun,15.0
+270.0,F,Fun,17.0
+271.0,F,Fun,15.0
+272.0,F,Fun,25.0
+273.0,H,Fun,18.0
+274.0,H,Fun,20.0
+275.0,H,Fun,5.0
+276.0,H,Fun,14.0
+277.0,H,Fun,20.0
+278.0,H,Fun,25.0
+279.0,H,Fun,10.0
+280.0,H,Fun,15.0
+281.0,H,Fun,15.0
+282.0,H,Fun,20.0
+283.0,H,Fun,10.0
+284.0,H,Fun,20.0
+285.0,H,Fun,25.0
+286.0,H,Fun,15.0
+287.0,H,Fun,5.0
+288.0,H,Fun,25.0
+289.0,H,Fun,20.0
+290.0,H,Fun,10.0
+291.0,H,Fun,15.0
+292.0,H,Fun,17.0
+293.0,H,Fun,18.0
+294.0,F,Fun,5.0
+295.0,F,Fun,16.0
+296.0,F,Fun,15.0
+297.0,F,Fun,15.0
+298.0,F,Fun,10.0
+299.0,F,Fun,20.0
+300.0,F,Fun,15.0
+301.0,F,Fun,20.0
+302.0,F,Fun,10.0
+303.0,F,Fun,10.0
+304.0,F,Fun,25.0
+305.0,F,Fun,12.0
+306.0,F,Fun,16.0
+307.0,F,Fun,15.0
+308.0,H,Fun,17.0
+309.0,H,Fun,20.0
+310.0,H,Fun,20.0
+311.0,H,Fun,10.0
+312.0,H,Fun,15.0
+313.0,H,Fun,18.0
+314.0,H,Fun,20.0
+315.0,H,Fun,9.52
+316.0,H,Fun,25.0
+317.0,H,Fun,20.0
+318.0,H,Fun,8.0
+319.0,H,Fun,10.0
+320.0,H,Fun,16.0
+321.0,H,Fun,20.0
+322.0,F,Fun,8.0
+323.0,F,Fun,20.0
+324.0,F,Fun,20.0
+325.0,F,Fun,10.0
+326.0,F,Fun,20.0
+327.0,F,Fun,20.0
+328.0,F,Fun,25.0
+329.0,F,Fun,16.0
+330.0,F,Fun,20.0
+331.0,F,Fun,25.0
+332.0,H,Fun,10.0
+333.0,H,Fun,20.0
+334.0,H,Fun,10.0
+335.0,H,Fun,20.0
+336.0,H,Fun,10.0
+337.0,H,Fun,17.0
+338.0,H,Fun,20.0
+339.0,H,Fun,
+340.0,H,Fun,
+341.0,F,Fun,20.0
+342.0,F,Fun,5.0
+343.0,F,Fun,10.0
+344.0,F,Fun,20.0
+345.0,F,Fun,23.0
+346.0,F,Fun,
+347.0,F,Fun,20.0
+348.0,F,Fun,15.0
+349.0,F,Fun,20.0
+350.0,F,Fun,8.0
+351.0,F,Fun,15.0
+352.0,F,Fun,10.0
+353.0,F,Fun,25.0
+354.0,F,Fun,20.0
+355.0,F,Fun,5.0
+356.0,F,Fun,20.0
+357.0,F,Fun,20.0
+358.0,F,Fun,25.0
+359.0,F,Fun,15.0
+360.0,F,Fun,10.0
+361.0,H,Fun,5.0
+362.0,H,Fun,17.09
+363.0,H,Fun,20.0
+364.0,H,Fun,15.0
+365.0,H,Fun,21.05
+366.0,H,Fun,16.0
+367.0,H,Fun,25.0
+368.0,H,Fun,20.0
+369.0,H,Fun,27.0
+370.0,H,Fun,10.0
+371.0,H,Fun,50.0
+372.0,H,Fun,20.0
+373.0,H,Fun,10.0
+374.0,H,Fun,10.0
+375.0,H,Fun,15.0
+376.0,H,Fun,20.0
+377.0,H,Fun,20.0
+378.0,H,Fun,20.0
+379.0,F,Fun,15.0
+380.0,F,Fun,15.0
+381.0,F,Fun,35.0
+382.0,F,Fun,10.0
+383.0,F,Fun,20.0
+384.0,F,Fun,20.0
+385.0,F,Fun,20.0
+386.0,F,Fun,10.0
+387.0,F,Fun,15.0
+388.0,F,Fun,15.0
+389.0,F,Fun,20.0
+390.0,F,Fun,10.0
+391.0,F,Fun,10.0
+392.0,F,Fun,30.0
+393.0,F,Fun,25.0
+394.0,F,Fun,15.0
+395.0,F,Fun,10.0
+396.0,F,Fun,18.0
+397.0,H,Fun,22.0
+398.0,H,Fun,30.0
+399.0,H,Fun,20.0
+400.0,H,Fun,3.0
+401.0,H,Fun,20.0
+402.0,H,Fun,25.0
+403.0,H,Fun,15.0
+404.0,H,Fun,25.0
+405.0,H,Fun,15.0
+406.0,H,Fun,20.0
+407.0,H,Fun,15.0
+408.0,H,Fun,20.0
+409.0,H,Fun,20.0
+410.0,H,Fun,20.0
+411.0,H,Fun,25.0
+412.0,H,Fun,5.0
+413.0,H,Fun,30.0
+414.0,H,Fun,1.0
+415.0,H,Fun,10.0
+416.0,F,Fun,20.0
+417.0,F,Fun,10.0
+418.0,F,Fun,15.0
+419.0,F,Fun,10.0
+420.0,F,Fun,10.0
+421.0,F,Fun,20.0
+422.0,H,Fun,10.0
+423.0,H,Fun,10.0
+424.0,H,Fun,17.0
+425.0,H,Fun,12.0
+426.0,H,Fun,20.0
+427.0,H,Fun,20.0
+428.0,H,Fun,10.0
+429.0,H,Fun,15.0
+430.0,F,Fun,20.0
+431.0,F,Fun,15.0
+432.0,F,Fun,10.0
+433.0,F,Fun,20.0
+434.0,F,Fun,30.0
+435.0,F,Fun,25.0
+436.0,F,Fun,22.0
+437.0,F,Fun,18.0
+438.0,F,Fun,17.0
+439.0,F,Fun,5.0
+440.0,H,Fun,20.0
+441.0,H,Fun,20.0
+442.0,H,Fun,45.0
+443.0,H,Fun,20.0
+444.0,H,Fun,30.0
+445.0,H,Fun,12.0
+446.0,H,Fun,15.0
+447.0,H,Fun,20.0
+448.0,H,Fun,25.0
+449.0,H,Fun,40.0
+450.0,H,Fun,5.0
+451.0,H,Fun,20.0
+452.0,H,Fun,5.0
+453.0,H,Fun,5.0
+454.0,F,Fun,20.0
+455.0,F,Fun,16.0
+456.0,F,Fun,10.0
+457.0,F,Fun,25.0
+458.0,F,Fun,20.0
+459.0,F,Fun,30.0
+460.0,H,Fun,15.0
+461.0,H,Fun,10.0
+462.0,H,Fun,10.0
+463.0,H,Fun,15.0
+464.0,H,Fun,20.0
+465.0,H,Fun,20.0
+466.0,F,Fun,15.0
+467.0,F,Fun,20.0
+468.0,F,Fun,15.0
+469.0,F,Fun,20.0
+470.0,F,Fun,25.0
+471.0,F,Fun,10.0
+472.0,F,Fun,20.0
+473.0,F,Fun,15.0
+474.0,F,Fun,30.0
+475.0,F,Fun,10.0
+476.0,F,Fun,15.0
+477.0,F,Fun,17.0
+478.0,F,Fun,20.0
+479.0,F,Fun,20.0
+480.0,F,Fun,20.0
+481.0,H,Fun,20.0
+482.0,H,Fun,20.0
+483.0,H,Fun,20.0
+484.0,H,Fun,16.0
+485.0,H,Fun,15.0
+486.0,H,Fun,15.0
+487.0,H,Fun,10.0
+488.0,H,Fun,20.0
+489.0,H,Fun,20.0
+490.0,H,Fun,10.0
+491.0,H,Fun,20.0
+492.0,H,Fun,30.0
+493.0,H,Fun,30.0
+494.0,H,Fun,25.0
+495.0,H,Fun,15.0
+496.0,F,Fun,20.0
+497.0,F,Fun,20.0
+498.0,F,Fun,18.0
+499.0,F,Fun,19.0
+500.0,F,Fun,15.0
+501.0,F,Fun,10.0
+502.0,H,Fun,20.0
+503.0,H,Fun,0.0
+504.0,H,Fun,15.0
+505.0,H,Fun,16.0
+506.0,H,Fun,15.0
+507.0,H,Fun,20.0
+508.0,H,Fun,18.0
+509.0,F,Fun,10.0
+510.0,F,Fun,12.0
+511.0,F,Fun,30.0
+512.0,F,Fun,20.0
+513.0,F,Fun,20.0
+514.0,F,Fun,15.0
+515.0,F,Fun,15.0
+516.0,F,Fun,10.0
+517.0,F,Fun,20.0
+518.0,F,Fun,30.0
+519.0,F,Fun,15.0
+520.0,F,Fun,15.0
+521.0,F,Fun,15.0
+522.0,F,Fun,20.0
+523.0,F,Fun,20.0
+524.0,F,Fun,20.0
+525.0,F,Fun,20.0
+526.0,F,Fun,20.0
+527.0,F,Fun,5.0
+528.0,F,Fun,10.0
+529.0,F,Fun,10.0
+530.0,F,Fun,15.0
+531.0,H,Fun,20.0
+532.0,H,Fun,20.0
+533.0,H,Fun,13.0
+534.0,H,Fun,5.0
+535.0,H,Fun,16.0
+536.0,H,Fun,20.0
+537.0,H,Fun,25.0
+538.0,H,Fun,30.0
+539.0,H,Fun,15.0
+540.0,H,Fun,20.0
+541.0,H,Fun,20.0
+542.0,H,Fun,20.0
+543.0,H,Fun,17.0
+544.0,H,Fun,10.0
+545.0,H,Fun,20.0
+546.0,H,Fun,25.0
+547.0,H,Fun,20.0
+548.0,H,Fun,10.0
+549.0,H,Fun,20.0
+550.0,H,Fun,30.0
+551.0,H,Fun,20.0
+552.0,H,Fun,15.0
+,F,Fun,
+1.0,F,Ambitious,15.0
+2.0,F,Ambitious,0.0
+3.0,F,Ambitious,10.0
+4.0,F,Ambitious,10.0
+5.0,F,Ambitious,10.0
+6.0,F,Ambitious,5.0
+7.0,F,Ambitious,15.0
+8.0,F,Ambitious,18.18
+9.0,F,Ambitious,10.0
+10.0,F,Ambitious,10.0
+11.0,H,Ambitious,0.0
+12.0,H,Ambitious,0.0
+13.0,H,Ambitious,14.0
+14.0,H,Ambitious,5.0
+15.0,H,Ambitious,10.0
+16.0,H,Ambitious,0.0
+17.0,H,Ambitious,5.0
+18.0,H,Ambitious,11.11
+19.0,H,Ambitious,0.0
+20.0,H,Ambitious,0.0
+21.0,F,Ambitious,16.0
+22.0,F,Ambitious,10.0
+23.0,F,Ambitious,10.0
+24.0,F,Ambitious,20.0
+25.0,F,Ambitious,15.0
+26.0,F,Ambitious,15.0
+27.0,F,Ambitious,25.0
+28.0,F,Ambitious,
+29.0,F,Ambitious,15.0
+30.0,F,Ambitious,20.0
+31.0,F,Ambitious,10.0
+32.0,F,Ambitious,0.0
+33.0,F,Ambitious,0.0
+34.0,F,Ambitious,15.0
+35.0,F,Ambitious,7.0
+36.0,F,Ambitious,15.0
+37.0,F,Ambitious,10.0
+38.0,F,Ambitious,10.0
+39.0,F,Ambitious,15.0
+40.0,H,Ambitious,10.0
+41.0,H,Ambitious,0.0
+42.0,H,Ambitious,10.0
+43.0,H,Ambitious,0.0
+44.0,H,Ambitious,15.0
+45.0,H,Ambitious,0.0
+46.0,H,Ambitious,10.0
+47.0,H,Ambitious,5.0
+48.0,H,Ambitious,5.0
+49.0,H,Ambitious,5.0
+50.0,H,Ambitious,10.0
+51.0,H,Ambitious,0.0
+52.0,H,Ambitious,5.0
+53.0,H,Ambitious,5.0
+54.0,H,Ambitious,0.0
+55.0,H,Ambitious,10.0
+56.0,F,Ambitious,17.0
+57.0,F,Ambitious,15.0
+58.0,F,Ambitious,
+59.0,F,Ambitious,
+60.0,F,Ambitious,15.0
+61.0,F,Ambitious,15.0
+62.0,F,Ambitious,10.0
+63.0,F,Ambitious,0.0
+64.0,F,Ambitious,10.0
+65.0,F,Ambitious,17.0
+66.0,H,Ambitious,53.0
+67.0,H,Ambitious,5.0
+68.0,H,Ambitious,8.0
+69.0,H,Ambitious,0.0
+70.0,H,Ambitious,15.0
+71.0,H,Ambitious,0.0
+72.0,H,Ambitious,10.0
+73.0,H,Ambitious,0.0
+74.0,H,Ambitious,10.0
+75.0,H,Ambitious,10.0
+76.0,F,Ambitious,10.0
+77.0,F,Ambitious,15.0
+78.0,F,Ambitious,20.0
+79.0,F,Ambitious,20.0
+80.0,F,Ambitious,20.0
+81.0,F,Ambitious,20.0
+82.0,F,Ambitious,10.0
+83.0,F,Ambitious,11.0
+84.0,F,Ambitious,0.0
+85.0,F,Ambitious,15.0
+86.0,F,Ambitious,5.0
+87.0,F,Ambitious,15.0
+88.0,F,Ambitious,20.0
+89.0,F,Ambitious,20.0
+90.0,F,Ambitious,10.0
+91.0,F,Ambitious,2.0
+92.0,F,Ambitious,20.0
+93.0,F,Ambitious,18.0
+94.0,H,Ambitious,10.0
+95.0,H,Ambitious,13.0
+96.0,H,Ambitious,6.0
+97.0,H,Ambitious,0.0
+98.0,H,Ambitious,0.0
+99.0,H,Ambitious,10.0
+100.0,H,Ambitious,5.0
+101.0,H,Ambitious,10.0
+102.0,H,Ambitious,10.0
+103.0,H,Ambitious,10.0
+104.0,H,Ambitious,20.0
+105.0,H,Ambitious,0.0
+106.0,H,Ambitious,5.0
+107.0,H,Ambitious,5.0
+108.0,H,Ambitious,0.0
+109.0,H,Ambitious,5.0
+110.0,H,Ambitious,5.0
+111.0,H,Ambitious,10.0
+112.0,F,Ambitious,10.0
+113.0,F,Ambitious,15.0
+114.0,F,Ambitious,10.0
+115.0,F,Ambitious,15.0
+116.0,F,Ambitious,20.0
+117.0,F,Ambitious,20.0
+119.0,F,Ambitious,10.0
+120.0,F,Ambitious,8.0
+121.0,F,Ambitious,15.0
+122.0,H,Ambitious,5.0
+123.0,H,Ambitious,5.0
+124.0,H,Ambitious,10.0
+125.0,H,Ambitious,12.0
+126.0,H,Ambitious,5.0
+127.0,H,Ambitious,5.0
+128.0,H,Ambitious,10.0
+129.0,H,Ambitious,
+130.0,H,Ambitious,
+131.0,H,Ambitious,10.0
+132.0,F,Ambitious,16.67
+133.0,F,Ambitious,14.89
+134.0,F,Ambitious,20.0
+135.0,F,Ambitious,13.64
+136.0,F,Ambitious,
+137.0,H,Ambitious,13.04
+138.0,H,Ambitious,6.67
+139.0,H,Ambitious,12.5
+140.0,H,Ambitious,11.63
+141.0,H,Ambitious,6.25
+142.0,F,Ambitious,19.05
+143.0,F,Ambitious,16.67
+144.0,F,Ambitious,18.0
+145.0,F,Ambitious,11.36
+146.0,F,Ambitious,13.64
+147.0,F,Ambitious,16.0
+148.0,F,Ambitious,18.87
+149.0,F,Ambitious,19.15
+150.0,F,Ambitious,14.0
+151.0,F,Ambitious,16.36
+152.0,F,Ambitious,18.0
+153.0,F,Ambitious,19.51
+154.0,F,Ambitious,17.31
+155.0,F,Ambitious,16.98
+156.0,F,Ambitious,18.0
+157.0,F,Ambitious,18.37
+158.0,H,Ambitious,9.52
+159.0,H,Ambitious,11.36
+160.0,H,Ambitious,14.0
+161.0,H,Ambitious,18.75
+162.0,H,Ambitious,13.04
+163.0,H,Ambitious,16.0
+164.0,H,Ambitious,2.56
+165.0,H,Ambitious,12.5
+166.0,H,Ambitious,2.78
+167.0,H,Ambitious,16.28
+168.0,H,Ambitious,17.78
+169.0,H,Ambitious,15.56
+170.0,H,Ambitious,13.95
+171.0,H,Ambitious,19.57
+172.0,H,Ambitious,15.56
+173.0,H,Ambitious,16.33
+174.0,F,Ambitious,16.67
+175.0,F,Ambitious,20.41
+176.0,F,Ambitious,15.22
+177.0,F,Ambitious,18.87
+178.0,F,Ambitious,15.22
+179.0,F,Ambitious,12.77
+180.0,F,Ambitious,13.46
+181.0,F,Ambitious,17.31
+182.0,F,Ambitious,17.86
+183.0,F,Ambitious,10.0
+184.0,H,Ambitious,16.67
+185.0,H,Ambitious,18.87
+186.0,H,Ambitious,11.11
+187.0,H,Ambitious,13.21
+188.0,H,Ambitious,20.0
+189.0,H,Ambitious,16.98
+190.0,H,Ambitious,13.33
+191.0,H,Ambitious,18.18
+192.0,H,Ambitious,15.22
+193.0,H,Ambitious,11.63
+194.0,F,Ambitious,18.0
+195.0,F,Ambitious,13.46
+196.0,F,Ambitious,15.69
+197.0,F,Ambitious,16.0
+198.0,F,Ambitious,9.62
+199.0,F,Ambitious,20.0
+200.0,F,Ambitious,16.98
+201.0,F,Ambitious,17.31
+202.0,F,Ambitious,15.38
+203.0,F,Ambitious,18.0
+204.0,F,Ambitious,17.65
+205.0,F,Ambitious,11.54
+206.0,F,Ambitious,16.67
+207.0,F,Ambitious,19.23
+208.0,F,Ambitious,19.23
+209.0,F,Ambitious,15.22
+210.0,F,Ambitious,11.11
+211.0,F,Ambitious,16.36
+212.0,F,Ambitious,18.37
+213.0,F,Ambitious,17.24
+214.0,H,Ambitious,14.89
+215.0,H,Ambitious,14.89
+216.0,H,Ambitious,12.5
+217.0,H,Ambitious,6.38
+218.0,H,Ambitious,17.95
+219.0,H,Ambitious,16.28
+220.0,H,Ambitious,14.81
+221.0,H,Ambitious,17.78
+222.0,H,Ambitious,4.76
+223.0,H,Ambitious,10.87
+224.0,H,Ambitious,13.79
+225.0,H,Ambitious,20.59
+226.0,H,Ambitious,10.26
+227.0,H,Ambitious,16.0
+228.0,H,Ambitious,13.51
+229.0,H,Ambitious,11.9
+230.0,H,Ambitious,2.38
+231.0,H,Ambitious,2.33
+232.0,H,Ambitious,13.33
+233.0,H,Ambitious,14.0
+234.0,F,Ambitious,10.0
+235.0,F,Ambitious,20.0
+236.0,F,Ambitious,15.0
+237.0,F,Ambitious,20.0
+238.0,F,Ambitious,15.0
+239.0,F,Ambitious,5.0
+240.0,F,Ambitious,10.0
+241.0,F,Ambitious,2.0
+242.0,F,Ambitious,5.0
+243.0,H,Ambitious,5.0
+244.0,H,Ambitious,10.0
+245.0,H,Ambitious,10.0
+246.0,H,Ambitious,10.0
+247.0,H,Ambitious,0.0
+248.0,H,Ambitious,15.0
+249.0,H,Ambitious,5.0
+250.0,H,Ambitious,10.0
+251.0,H,Ambitious,19.0
+252.0,F,Ambitious,25.0
+253.0,F,Ambitious,5.0
+254.0,F,Ambitious,8.0
+255.0,F,Ambitious,16.67
+256.0,F,Ambitious,10.0
+257.0,F,Ambitious,14.0
+258.0,F,Ambitious,5.0
+259.0,F,Ambitious,17.0
+260.0,F,Ambitious,13.0
+261.0,F,Ambitious,15.0
+262.0,F,Ambitious,0.0
+263.0,F,Ambitious,20.0
+264.0,F,Ambitious,5.0
+265.0,F,Ambitious,15.0
+266.0,F,Ambitious,0.0
+267.0,F,Ambitious,10.0
+268.0,F,Ambitious,15.0
+269.0,F,Ambitious,15.0
+270.0,F,Ambitious,14.0
+271.0,F,Ambitious,10.0
+272.0,F,Ambitious,5.0
+273.0,H,Ambitious,4.0
+274.0,H,Ambitious,10.0
+275.0,H,Ambitious,10.0
+276.0,H,Ambitious,8.0
+277.0,H,Ambitious,0.0
+278.0,H,Ambitious,10.0
+279.0,H,Ambitious,10.0
+280.0,H,Ambitious,5.0
+281.0,H,Ambitious,5.0
+282.0,H,Ambitious,10.0
+283.0,H,Ambitious,10.0
+284.0,H,Ambitious,10.0
+285.0,H,Ambitious,5.0
+286.0,H,Ambitious,15.0
+287.0,H,Ambitious,7.0
+288.0,H,Ambitious,10.0
+289.0,H,Ambitious,0.0
+290.0,H,Ambitious,5.0
+291.0,H,Ambitious,12.0
+292.0,H,Ambitious,10.0
+293.0,H,Ambitious,10.0
+294.0,F,Ambitious,10.0
+295.0,F,Ambitious,16.0
+296.0,F,Ambitious,5.0
+297.0,F,Ambitious,10.0
+298.0,F,Ambitious,15.0
+299.0,F,Ambitious,10.0
+300.0,F,Ambitious,15.0
+301.0,F,Ambitious,10.0
+302.0,F,Ambitious,5.0
+303.0,F,Ambitious,15.0
+304.0,F,Ambitious,15.0
+305.0,F,Ambitious,3.0
+306.0,F,Ambitious,18.0
+307.0,F,Ambitious,20.0
+308.0,H,Ambitious,11.0
+309.0,H,Ambitious,10.0
+310.0,H,Ambitious,8.0
+311.0,H,Ambitious,5.0
+312.0,H,Ambitious,5.0
+313.0,H,Ambitious,10.0
+314.0,H,Ambitious,10.0
+315.0,H,Ambitious,14.29
+316.0,H,Ambitious,10.0
+317.0,H,Ambitious,0.0
+318.0,H,Ambitious,2.0
+319.0,H,Ambitious,5.0
+320.0,H,Ambitious,16.0
+321.0,H,Ambitious,10.0
+322.0,F,Ambitious,5.0
+323.0,F,Ambitious,10.0
+324.0,F,Ambitious,10.0
+325.0,F,Ambitious,10.0
+326.0,F,Ambitious,20.0
+327.0,F,Ambitious,20.0
+328.0,F,Ambitious,10.0
+329.0,F,Ambitious,15.0
+330.0,F,Ambitious,10.0
+331.0,F,Ambitious,10.0
+332.0,H,Ambitious,5.0
+333.0,H,Ambitious,10.0
+334.0,H,Ambitious,10.0
+335.0,H,Ambitious,15.0
+336.0,H,Ambitious,15.0
+337.0,H,Ambitious,16.0
+338.0,H,Ambitious,20.0
+339.0,H,Ambitious,
+340.0,H,Ambitious,
+341.0,F,Ambitious,20.0
+342.0,F,Ambitious,15.0
+343.0,F,Ambitious,15.0
+344.0,F,Ambitious,20.0
+345.0,F,Ambitious,15.0
+346.0,F,Ambitious,
+347.0,F,Ambitious,30.0
+348.0,F,Ambitious,15.0
+349.0,F,Ambitious,20.0
+350.0,F,Ambitious,15.0
+351.0,F,Ambitious,15.0
+352.0,F,Ambitious,10.0
+353.0,F,Ambitious,10.0
+354.0,F,Ambitious,20.0
+355.0,F,Ambitious,10.0
+356.0,F,Ambitious,0.0
+357.0,F,Ambitious,20.0
+358.0,F,Ambitious,10.0
+359.0,F,Ambitious,14.0
+360.0,F,Ambitious,10.0
+361.0,H,Ambitious,5.0
+362.0,H,Ambitious,5.98
+363.0,H,Ambitious,5.0
+364.0,H,Ambitious,10.0
+365.0,H,Ambitious,10.53
+366.0,H,Ambitious,15.0
+367.0,H,Ambitious,5.0
+368.0,H,Ambitious,10.0
+369.0,H,Ambitious,5.0
+370.0,H,Ambitious,10.0
+371.0,H,Ambitious,0.0
+372.0,H,Ambitious,5.0
+373.0,H,Ambitious,0.0
+374.0,H,Ambitious,5.0
+375.0,H,Ambitious,8.0
+376.0,H,Ambitious,15.0
+377.0,H,Ambitious,15.0
+378.0,H,Ambitious,10.0
+379.0,F,Ambitious,15.0
+380.0,F,Ambitious,15.0
+381.0,F,Ambitious,5.0
+382.0,F,Ambitious,10.0
+383.0,F,Ambitious,15.0
+384.0,F,Ambitious,20.0
+385.0,F,Ambitious,10.0
+386.0,F,Ambitious,15.0
+387.0,F,Ambitious,15.0
+388.0,F,Ambitious,15.0
+389.0,F,Ambitious,0.0
+390.0,F,Ambitious,10.0
+391.0,F,Ambitious,10.0
+392.0,F,Ambitious,10.0
+393.0,F,Ambitious,12.0
+394.0,F,Ambitious,15.0
+395.0,F,Ambitious,10.0
+396.0,F,Ambitious,15.0
+397.0,H,Ambitious,6.0
+398.0,H,Ambitious,0.0
+399.0,H,Ambitious,10.0
+400.0,H,Ambitious,1.0
+401.0,H,Ambitious,0.0
+402.0,H,Ambitious,10.0
+403.0,H,Ambitious,5.0
+404.0,H,Ambitious,3.0
+405.0,H,Ambitious,5.0
+406.0,H,Ambitious,20.0
+407.0,H,Ambitious,15.0
+408.0,H,Ambitious,10.0
+409.0,H,Ambitious,10.0
+410.0,H,Ambitious,10.0
+411.0,H,Ambitious,10.0
+412.0,H,Ambitious,5.0
+413.0,H,Ambitious,5.0
+414.0,H,Ambitious,1.0
+415.0,H,Ambitious,10.0
+416.0,F,Ambitious,5.0
+417.0,F,Ambitious,10.0
+418.0,F,Ambitious,10.0
+419.0,F,Ambitious,5.0
+420.0,F,Ambitious,15.0
+421.0,F,Ambitious,10.0
+422.0,H,Ambitious,10.0
+423.0,H,Ambitious,5.0
+424.0,H,Ambitious,17.0
+425.0,H,Ambitious,12.0
+426.0,H,Ambitious,8.0
+427.0,H,Ambitious,20.0
+428.0,H,Ambitious,10.0
+429.0,H,Ambitious,5.0
+430.0,F,Ambitious,15.0
+431.0,F,Ambitious,15.0
+432.0,F,Ambitious,10.0
+433.0,F,Ambitious,10.0
+434.0,F,Ambitious,0.0
+435.0,F,Ambitious,15.0
+436.0,F,Ambitious,17.0
+437.0,F,Ambitious,14.0
+438.0,F,Ambitious,18.0
+439.0,F,Ambitious,10.0
+440.0,H,Ambitious,5.0
+441.0,H,Ambitious,5.0
+442.0,H,Ambitious,0.0
+443.0,H,Ambitious,0.0
+444.0,H,Ambitious,0.0
+445.0,H,Ambitious,6.0
+446.0,H,Ambitious,10.0
+447.0,H,Ambitious,0.0
+448.0,H,Ambitious,5.0
+449.0,H,Ambitious,1.0
+450.0,H,Ambitious,5.0
+451.0,H,Ambitious,5.0
+452.0,H,Ambitious,0.0
+453.0,H,Ambitious,0.0
+454.0,F,Ambitious,10.0
+455.0,F,Ambitious,20.0
+456.0,F,Ambitious,15.0
+457.0,F,Ambitious,0.0
+458.0,F,Ambitious,0.0
+459.0,F,Ambitious,10.0
+460.0,H,Ambitious,15.0
+461.0,H,Ambitious,10.0
+462.0,H,Ambitious,0.0
+463.0,H,Ambitious,15.0
+464.0,H,Ambitious,15.0
+465.0,H,Ambitious,20.0
+466.0,F,Ambitious,20.0
+467.0,F,Ambitious,20.0
+468.0,F,Ambitious,15.0
+469.0,F,Ambitious,10.0
+470.0,F,Ambitious,10.0
+471.0,F,Ambitious,15.0
+472.0,F,Ambitious,10.0
+473.0,F,Ambitious,15.0
+474.0,F,Ambitious,5.0
+475.0,F,Ambitious,15.0
+476.0,F,Ambitious,15.0
+477.0,F,Ambitious,15.0
+478.0,F,Ambitious,10.0
+479.0,F,Ambitious,15.0
+480.0,F,Ambitious,12.0
+481.0,H,Ambitious,5.0
+482.0,H,Ambitious,15.0
+483.0,H,Ambitious,0.0
+484.0,H,Ambitious,16.0
+485.0,H,Ambitious,15.0
+486.0,H,Ambitious,10.0
+487.0,H,Ambitious,9.0
+488.0,H,Ambitious,5.0
+489.0,H,Ambitious,20.0
+490.0,H,Ambitious,10.0
+491.0,H,Ambitious,8.0
+492.0,H,Ambitious,10.0
+493.0,H,Ambitious,10.0
+494.0,H,Ambitious,0.0
+495.0,H,Ambitious,15.0
+496.0,F,Ambitious,10.0
+497.0,F,Ambitious,20.0
+498.0,F,Ambitious,18.0
+499.0,F,Ambitious,5.0
+500.0,F,Ambitious,10.0
+501.0,F,Ambitious,10.0
+502.0,H,Ambitious,0.0
+503.0,H,Ambitious,0.0
+504.0,H,Ambitious,15.0
+505.0,H,Ambitious,16.0
+506.0,H,Ambitious,15.0
+507.0,H,Ambitious,20.0
+508.0,H,Ambitious,18.0
+509.0,F,Ambitious,10.0
+510.0,F,Ambitious,3.0
+511.0,F,Ambitious,15.0
+512.0,F,Ambitious,5.0
+513.0,F,Ambitious,5.0
+514.0,F,Ambitious,5.0
+515.0,F,Ambitious,10.0
+516.0,F,Ambitious,7.0
+517.0,F,Ambitious,5.0
+518.0,F,Ambitious,5.0
+519.0,F,Ambitious,5.0
+520.0,F,Ambitious,10.0
+521.0,F,Ambitious,15.0
+522.0,F,Ambitious,15.0
+523.0,F,Ambitious,5.0
+524.0,F,Ambitious,10.0
+525.0,F,Ambitious,15.0
+526.0,F,Ambitious,10.0
+527.0,F,Ambitious,10.0
+528.0,F,Ambitious,10.0
+529.0,F,Ambitious,10.0
+530.0,F,Ambitious,5.0
+531.0,H,Ambitious,10.0
+532.0,H,Ambitious,5.0
+533.0,H,Ambitious,12.0
+534.0,H,Ambitious,2.0
+535.0,H,Ambitious,10.0
+536.0,H,Ambitious,10.0
+537.0,H,Ambitious,5.0
+538.0,H,Ambitious,0.0
+539.0,H,Ambitious,15.0
+540.0,H,Ambitious,15.0
+541.0,H,Ambitious,0.0
+542.0,H,Ambitious,10.0
+543.0,H,Ambitious,16.0
+544.0,H,Ambitious,10.0
+545.0,H,Ambitious,10.0
+546.0,H,Ambitious,5.0
+547.0,H,Ambitious,0.0
+548.0,H,Ambitious,0.0
+549.0,H,Ambitious,0.0
+550.0,H,Ambitious,3.0
+551.0,H,Ambitious,0.0
+552.0,H,Ambitious,0.0
+,F,Ambitious,
+1.0,F,Shared interests,15.0
+2.0,F,Shared interests,5.0
+3.0,F,Shared interests,0.0
+4.0,F,Shared interests,10.0
+5.0,F,Shared interests,15.0
+6.0,F,Shared interests,15.0
+7.0,F,Shared interests,10.0
+8.0,F,Shared interests,9.09
+9.0,F,Shared interests,10.0
+10.0,F,Shared interests,5.0
+11.0,H,Shared interests,5.0
+12.0,H,Shared interests,0.0
+13.0,H,Shared interests,12.0
+14.0,H,Shared interests,5.0
+15.0,H,Shared interests,20.0
+16.0,H,Shared interests,10.0
+17.0,H,Shared interests,10.0
+18.0,H,Shared interests,22.22
+19.0,H,Shared interests,15.0
+20.0,H,Shared interests,0.0
+21.0,F,Shared interests,18.0
+22.0,F,Shared interests,20.0
+23.0,F,Shared interests,10.0
+24.0,F,Shared interests,15.0
+25.0,F,Shared interests,15.0
+26.0,F,Shared interests,10.0
+27.0,F,Shared interests,10.0
+28.0,F,Shared interests,
+29.0,F,Shared interests,10.0
+30.0,F,Shared interests,10.0
+31.0,F,Shared interests,5.0
+32.0,F,Shared interests,0.0
+33.0,F,Shared interests,10.0
+34.0,F,Shared interests,5.0
+35.0,F,Shared interests,5.0
+36.0,F,Shared interests,5.0
+37.0,F,Shared interests,15.0
+38.0,F,Shared interests,0.0
+39.0,F,Shared interests,10.0
+40.0,H,Shared interests,0.0
+41.0,H,Shared interests,10.0
+42.0,H,Shared interests,10.0
+43.0,H,Shared interests,0.0
+44.0,H,Shared interests,15.0
+45.0,H,Shared interests,20.0
+46.0,H,Shared interests,5.0
+47.0,H,Shared interests,5.0
+48.0,H,Shared interests,0.0
+49.0,H,Shared interests,15.0
+50.0,H,Shared interests,10.0
+51.0,H,Shared interests,15.0
+52.0,H,Shared interests,15.0
+53.0,H,Shared interests,10.0
+54.0,H,Shared interests,0.0
+55.0,H,Shared interests,10.0
+56.0,F,Shared interests,15.0
+57.0,F,Shared interests,15.0
+58.0,F,Shared interests,
+59.0,F,Shared interests,
+60.0,F,Shared interests,20.0
+61.0,F,Shared interests,20.0
+62.0,F,Shared interests,10.0
+63.0,F,Shared interests,10.0
+64.0,F,Shared interests,20.0
+65.0,F,Shared interests,15.0
+66.0,H,Shared interests,20.0
+67.0,H,Shared interests,10.0
+68.0,H,Shared interests,13.0
+69.0,H,Shared interests,0.0
+70.0,H,Shared interests,10.0
+71.0,H,Shared interests,10.0
+72.0,H,Shared interests,10.0
+73.0,H,Shared interests,10.0
+74.0,H,Shared interests,0.0
+75.0,H,Shared interests,10.0
+76.0,F,Shared interests,20.0
+77.0,F,Shared interests,10.0
+78.0,F,Shared interests,15.0
+79.0,F,Shared interests,15.0
+80.0,F,Shared interests,20.0
+81.0,F,Shared interests,20.0
+82.0,F,Shared interests,10.0
+83.0,F,Shared interests,15.0
+84.0,F,Shared interests,5.0
+85.0,F,Shared interests,10.0
+86.0,F,Shared interests,20.0
+87.0,F,Shared interests,20.0
+88.0,F,Shared interests,15.0
+89.0,F,Shared interests,0.0
+90.0,F,Shared interests,18.0
+91.0,F,Shared interests,10.0
+92.0,F,Shared interests,10.0
+93.0,F,Shared interests,6.0
+94.0,H,Shared interests,20.0
+95.0,H,Shared interests,14.0
+96.0,H,Shared interests,22.0
+97.0,H,Shared interests,0.0
+98.0,H,Shared interests,5.0
+99.0,H,Shared interests,0.0
+100.0,H,Shared interests,10.0
+101.0,H,Shared interests,20.0
+102.0,H,Shared interests,0.0
+103.0,H,Shared interests,15.0
+104.0,H,Shared interests,5.0
+105.0,H,Shared interests,5.0
+106.0,H,Shared interests,20.0
+107.0,H,Shared interests,8.0
+108.0,H,Shared interests,15.0
+109.0,H,Shared interests,30.0
+110.0,H,Shared interests,25.0
+111.0,H,Shared interests,10.0
+112.0,F,Shared interests,15.0
+113.0,F,Shared interests,5.0
+114.0,F,Shared interests,10.0
+115.0,F,Shared interests,5.0
+116.0,F,Shared interests,0.0
+117.0,F,Shared interests,10.0
+119.0,F,Shared interests,5.0
+120.0,F,Shared interests,2.0
+121.0,F,Shared interests,0.0
+122.0,H,Shared interests,10.0
+123.0,H,Shared interests,10.0
+124.0,H,Shared interests,20.0
+125.0,H,Shared interests,18.0
+126.0,H,Shared interests,5.0
+127.0,H,Shared interests,5.0
+128.0,H,Shared interests,5.0
+129.0,H,Shared interests,
+130.0,H,Shared interests,
+131.0,H,Shared interests,15.0
+132.0,F,Shared interests,16.67
+133.0,F,Shared interests,19.15
+134.0,F,Shared interests,15.56
+135.0,F,Shared interests,13.64
+136.0,F,Shared interests,
+137.0,H,Shared interests,19.57
+138.0,H,Shared interests,13.33
+139.0,H,Shared interests,12.5
+140.0,H,Shared interests,16.28
+141.0,H,Shared interests,18.75
+142.0,F,Shared interests,9.52
+143.0,F,Shared interests,18.75
+144.0,F,Shared interests,16.0
+145.0,F,Shared interests,18.18
+146.0,F,Shared interests,13.64
+147.0,F,Shared interests,10.0
+148.0,F,Shared interests,13.21
+149.0,F,Shared interests,14.89
+150.0,F,Shared interests,14.0
+151.0,F,Shared interests,16.36
+152.0,F,Shared interests,14.0
+153.0,F,Shared interests,17.07
+154.0,F,Shared interests,15.38
+155.0,F,Shared interests,13.21
+156.0,F,Shared interests,16.0
+157.0,F,Shared interests,16.33
+158.0,H,Shared interests,14.29
+159.0,H,Shared interests,11.36
+160.0,H,Shared interests,16.0
+161.0,H,Shared interests,8.33
+162.0,H,Shared interests,19.57
+163.0,H,Shared interests,12.0
+164.0,H,Shared interests,15.38
+165.0,H,Shared interests,18.75
+166.0,H,Shared interests,2.78
+167.0,H,Shared interests,16.28
+168.0,H,Shared interests,17.78
+169.0,H,Shared interests,13.33
+170.0,H,Shared interests,11.63
+171.0,H,Shared interests,10.87
+172.0,H,Shared interests,6.67
+173.0,H,Shared interests,6.12
+174.0,F,Shared interests,16.67
+175.0,F,Shared interests,16.33
+176.0,F,Shared interests,13.04
+177.0,F,Shared interests,15.09
+178.0,F,Shared interests,17.39
+179.0,F,Shared interests,12.77
+180.0,F,Shared interests,17.31
+181.0,F,Shared interests,11.54
+182.0,F,Shared interests,12.5
+183.0,F,Shared interests,7.5
+184.0,H,Shared interests,16.67
+185.0,H,Shared interests,15.09
+186.0,H,Shared interests,11.11
+187.0,H,Shared interests,16.98
+188.0,H,Shared interests,15.56
+189.0,H,Shared interests,15.09
+190.0,H,Shared interests,11.11
+191.0,H,Shared interests,2.27
+192.0,H,Shared interests,13.04
+193.0,H,Shared interests,11.63
+194.0,F,Shared interests,14.0
+195.0,F,Shared interests,13.46
+196.0,F,Shared interests,15.69
+197.0,F,Shared interests,14.0
+198.0,F,Shared interests,19.23
+199.0,F,Shared interests,12.5
+200.0,F,Shared interests,15.09
+201.0,F,Shared interests,15.38
+202.0,F,Shared interests,11.54
+203.0,F,Shared interests,8.0
+204.0,F,Shared interests,13.73
+205.0,F,Shared interests,17.31
+206.0,F,Shared interests,12.5
+207.0,F,Shared interests,13.46
+208.0,F,Shared interests,17.31
+209.0,F,Shared interests,15.22
+210.0,F,Shared interests,17.78
+211.0,F,Shared interests,14.55
+212.0,F,Shared interests,14.29
+213.0,F,Shared interests,15.52
+214.0,H,Shared interests,8.51
+215.0,H,Shared interests,10.64
+216.0,H,Shared interests,20.0
+217.0,H,Shared interests,21.28
+218.0,H,Shared interests,20.51
+219.0,H,Shared interests,16.28
+220.0,H,Shared interests,18.52
+221.0,H,Shared interests,13.33
+222.0,H,Shared interests,23.81
+223.0,H,Shared interests,15.22
+224.0,H,Shared interests,17.24
+225.0,H,Shared interests,20.59
+226.0,H,Shared interests,10.26
+227.0,H,Shared interests,14.0
+228.0,H,Shared interests,18.92
+229.0,H,Shared interests,11.9
+230.0,H,Shared interests,2.38
+231.0,H,Shared interests,11.63
+232.0,H,Shared interests,15.56
+233.0,H,Shared interests,18.0
+234.0,F,Shared interests,20.0
+235.0,F,Shared interests,10.0
+236.0,F,Shared interests,15.0
+237.0,F,Shared interests,10.0
+238.0,F,Shared interests,15.0
+239.0,F,Shared interests,20.0
+240.0,F,Shared interests,10.0
+241.0,F,Shared interests,2.0
+242.0,F,Shared interests,10.0
+243.0,H,Shared interests,10.0
+244.0,H,Shared interests,20.0
+245.0,H,Shared interests,22.0
+246.0,H,Shared interests,5.0
+247.0,H,Shared interests,25.0
+248.0,H,Shared interests,5.0
+249.0,H,Shared interests,21.0
+250.0,H,Shared interests,10.0
+251.0,H,Shared interests,5.0
+252.0,F,Shared interests,0.0
+253.0,F,Shared interests,20.0
+254.0,F,Shared interests,10.0
+255.0,F,Shared interests,16.67
+256.0,F,Shared interests,10.0
+257.0,F,Shared interests,10.0
+258.0,F,Shared interests,13.0
+259.0,F,Shared interests,12.0
+260.0,F,Shared interests,15.0
+261.0,F,Shared interests,10.0
+262.0,F,Shared interests,10.0
+263.0,F,Shared interests,10.0
+264.0,F,Shared interests,20.0
+265.0,F,Shared interests,10.0
+266.0,F,Shared interests,10.0
+267.0,F,Shared interests,15.0
+268.0,F,Shared interests,5.0
+269.0,F,Shared interests,10.0
+270.0,F,Shared interests,18.0
+271.0,F,Shared interests,10.0
+272.0,F,Shared interests,0.0
+273.0,H,Shared interests,5.0
+274.0,H,Shared interests,10.0
+275.0,H,Shared interests,25.0
+276.0,H,Shared interests,10.0
+277.0,H,Shared interests,0.0
+278.0,H,Shared interests,5.0
+279.0,H,Shared interests,10.0
+280.0,H,Shared interests,5.0
+281.0,H,Shared interests,20.0
+282.0,H,Shared interests,10.0
+283.0,H,Shared interests,10.0
+284.0,H,Shared interests,0.0
+285.0,H,Shared interests,5.0
+286.0,H,Shared interests,20.0
+287.0,H,Shared interests,8.0
+288.0,H,Shared interests,10.0
+289.0,H,Shared interests,20.0
+290.0,H,Shared interests,15.0
+291.0,H,Shared interests,18.0
+292.0,H,Shared interests,15.0
+293.0,H,Shared interests,10.0
+294.0,F,Shared interests,10.0
+295.0,F,Shared interests,20.0
+296.0,F,Shared interests,10.0
+297.0,F,Shared interests,10.0
+298.0,F,Shared interests,15.0
+299.0,F,Shared interests,10.0
+300.0,F,Shared interests,10.0
+301.0,F,Shared interests,10.0
+302.0,F,Shared interests,10.0
+303.0,F,Shared interests,5.0
+304.0,F,Shared interests,10.0
+305.0,F,Shared interests,12.0
+306.0,F,Shared interests,11.0
+307.0,F,Shared interests,15.0
+308.0,H,Shared interests,18.0
+309.0,H,Shared interests,10.0
+310.0,H,Shared interests,13.0
+311.0,H,Shared interests,5.0
+312.0,H,Shared interests,20.0
+313.0,H,Shared interests,22.0
+314.0,H,Shared interests,10.0
+315.0,H,Shared interests,7.62
+316.0,H,Shared interests,5.0
+317.0,H,Shared interests,10.0
+318.0,H,Shared interests,10.0
+319.0,H,Shared interests,20.0
+320.0,H,Shared interests,16.0
+321.0,H,Shared interests,10.0
+322.0,F,Shared interests,10.0
+323.0,F,Shared interests,20.0
+324.0,F,Shared interests,5.0
+325.0,F,Shared interests,30.0
+326.0,F,Shared interests,15.0
+327.0,F,Shared interests,15.0
+328.0,F,Shared interests,1.0
+329.0,F,Shared interests,10.0
+330.0,F,Shared interests,15.0
+331.0,F,Shared interests,25.0
+332.0,H,Shared interests,5.0
+333.0,H,Shared interests,0.0
+334.0,H,Shared interests,15.0
+335.0,H,Shared interests,15.0
+336.0,H,Shared interests,10.0
+337.0,H,Shared interests,16.0
+338.0,H,Shared interests,5.0
+339.0,H,Shared interests,
+340.0,H,Shared interests,
+341.0,F,Shared interests,0.0
+342.0,F,Shared interests,0.0
+343.0,F,Shared interests,25.0
+344.0,F,Shared interests,15.0
+345.0,F,Shared interests,5.0
+346.0,F,Shared interests,
+347.0,F,Shared interests,5.0
+348.0,F,Shared interests,15.0
+349.0,F,Shared interests,5.0
+350.0,F,Shared interests,15.0
+351.0,F,Shared interests,10.0
+352.0,F,Shared interests,20.0
+353.0,F,Shared interests,15.0
+354.0,F,Shared interests,10.0
+355.0,F,Shared interests,5.0
+356.0,F,Shared interests,20.0
+357.0,F,Shared interests,5.0
+358.0,F,Shared interests,10.0
+359.0,F,Shared interests,22.0
+360.0,F,Shared interests,20.0
+361.0,H,Shared interests,10.0
+362.0,H,Shared interests,17.09
+363.0,H,Shared interests,10.0
+364.0,H,Shared interests,0.0
+365.0,H,Shared interests,10.53
+366.0,H,Shared interests,20.0
+367.0,H,Shared interests,5.0
+368.0,H,Shared interests,15.0
+369.0,H,Shared interests,5.0
+370.0,H,Shared interests,10.0
+371.0,H,Shared interests,0.0
+372.0,H,Shared interests,15.0
+373.0,H,Shared interests,5.0
+374.0,H,Shared interests,15.0
+375.0,H,Shared interests,12.0
+376.0,H,Shared interests,10.0
+377.0,H,Shared interests,10.0
+378.0,H,Shared interests,10.0
+379.0,F,Shared interests,20.0
+380.0,F,Shared interests,10.0
+381.0,F,Shared interests,10.0
+382.0,F,Shared interests,5.0
+383.0,F,Shared interests,10.0
+384.0,F,Shared interests,0.0
+385.0,F,Shared interests,5.0
+386.0,F,Shared interests,20.0
+387.0,F,Shared interests,10.0
+388.0,F,Shared interests,16.0
+389.0,F,Shared interests,10.0
+390.0,F,Shared interests,30.0
+391.0,F,Shared interests,10.0
+392.0,F,Shared interests,10.0
+393.0,F,Shared interests,10.0
+394.0,F,Shared interests,17.0
+395.0,F,Shared interests,20.0
+396.0,F,Shared interests,16.0
+397.0,H,Shared interests,10.0
+398.0,H,Shared interests,5.0
+399.0,H,Shared interests,15.0
+400.0,H,Shared interests,1.0
+401.0,H,Shared interests,20.0
+402.0,H,Shared interests,5.0
+403.0,H,Shared interests,15.0
+404.0,H,Shared interests,8.0
+405.0,H,Shared interests,5.0
+406.0,H,Shared interests,0.0
+407.0,H,Shared interests,10.0
+408.0,H,Shared interests,20.0
+409.0,H,Shared interests,15.0
+410.0,H,Shared interests,10.0
+411.0,H,Shared interests,0.0
+412.0,H,Shared interests,5.0
+413.0,H,Shared interests,15.0
+414.0,H,Shared interests,1.0
+415.0,H,Shared interests,10.0
+416.0,F,Shared interests,10.0
+417.0,F,Shared interests,20.0
+418.0,F,Shared interests,15.0
+419.0,F,Shared interests,30.0
+420.0,F,Shared interests,15.0
+421.0,F,Shared interests,10.0
+422.0,H,Shared interests,5.0
+423.0,H,Shared interests,5.0
+424.0,H,Shared interests,16.0
+425.0,H,Shared interests,15.0
+426.0,H,Shared interests,5.0
+427.0,H,Shared interests,20.0
+428.0,H,Shared interests,0.0
+429.0,H,Shared interests,0.0
+430.0,F,Shared interests,15.0
+431.0,F,Shared interests,15.0
+432.0,F,Shared interests,5.0
+433.0,F,Shared interests,10.0
+434.0,F,Shared interests,10.0
+435.0,F,Shared interests,10.0
+436.0,F,Shared interests,8.0
+437.0,F,Shared interests,20.0
+438.0,F,Shared interests,20.0
+439.0,F,Shared interests,5.0
+440.0,H,Shared interests,5.0
+441.0,H,Shared interests,5.0
+442.0,H,Shared interests,5.0
+443.0,H,Shared interests,15.0
+444.0,H,Shared interests,0.0
+445.0,H,Shared interests,12.0
+446.0,H,Shared interests,0.0
+447.0,H,Shared interests,10.0
+448.0,H,Shared interests,5.0
+449.0,H,Shared interests,1.0
+450.0,H,Shared interests,30.0
+451.0,H,Shared interests,10.0
+452.0,H,Shared interests,5.0
+453.0,H,Shared interests,5.0
+454.0,F,Shared interests,20.0
+455.0,F,Shared interests,9.0
+456.0,F,Shared interests,15.0
+457.0,F,Shared interests,25.0
+458.0,F,Shared interests,0.0
+459.0,F,Shared interests,10.0
+460.0,H,Shared interests,20.0
+461.0,H,Shared interests,0.0
+462.0,H,Shared interests,20.0
+463.0,H,Shared interests,25.0
+464.0,H,Shared interests,20.0
+465.0,H,Shared interests,0.0
+466.0,F,Shared interests,15.0
+467.0,F,Shared interests,0.0
+468.0,F,Shared interests,15.0
+469.0,F,Shared interests,20.0
+470.0,F,Shared interests,10.0
+471.0,F,Shared interests,20.0
+472.0,F,Shared interests,10.0
+473.0,F,Shared interests,15.0
+474.0,F,Shared interests,20.0
+475.0,F,Shared interests,20.0
+476.0,F,Shared interests,10.0
+477.0,F,Shared interests,17.0
+478.0,F,Shared interests,20.0
+479.0,F,Shared interests,15.0
+480.0,F,Shared interests,16.0
+481.0,H,Shared interests,15.0
+482.0,H,Shared interests,13.0
+483.0,H,Shared interests,0.0
+484.0,H,Shared interests,16.0
+485.0,H,Shared interests,15.0
+486.0,H,Shared interests,15.0
+487.0,H,Shared interests,15.0
+488.0,H,Shared interests,20.0
+489.0,H,Shared interests,0.0
+490.0,H,Shared interests,15.0
+491.0,H,Shared interests,7.0
+492.0,H,Shared interests,0.0
+493.0,H,Shared interests,10.0
+494.0,H,Shared interests,0.0
+495.0,H,Shared interests,10.0
+496.0,F,Shared interests,0.0
+497.0,F,Shared interests,10.0
+498.0,F,Shared interests,10.0
+499.0,F,Shared interests,19.0
+500.0,F,Shared interests,15.0
+501.0,F,Shared interests,20.0
+502.0,H,Shared interests,0.0
+503.0,H,Shared interests,0.0
+504.0,H,Shared interests,10.0
+505.0,H,Shared interests,16.0
+506.0,H,Shared interests,20.0
+507.0,H,Shared interests,0.0
+508.0,H,Shared interests,18.0
+509.0,F,Shared interests,20.0
+510.0,F,Shared interests,10.0
+511.0,F,Shared interests,15.0
+512.0,F,Shared interests,15.0
+513.0,F,Shared interests,15.0
+514.0,F,Shared interests,20.0
+515.0,F,Shared interests,15.0
+516.0,F,Shared interests,12.0
+517.0,F,Shared interests,10.0
+518.0,F,Shared interests,5.0
+519.0,F,Shared interests,5.0
+520.0,F,Shared interests,10.0
+521.0,F,Shared interests,10.0
+522.0,F,Shared interests,20.0
+523.0,F,Shared interests,20.0
+524.0,F,Shared interests,10.0
+525.0,F,Shared interests,10.0
+526.0,F,Shared interests,15.0
+527.0,F,Shared interests,5.0
+528.0,F,Shared interests,
+529.0,F,Shared interests,20.0
+530.0,F,Shared interests,30.0
+531.0,H,Shared interests,5.0
+532.0,H,Shared interests,10.0
+533.0,H,Shared interests,0.0
+534.0,H,Shared interests,3.0
+535.0,H,Shared interests,18.0
+536.0,H,Shared interests,0.0
+537.0,H,Shared interests,20.0
+538.0,H,Shared interests,10.0
+539.0,H,Shared interests,10.0
+540.0,H,Shared interests,10.0
+541.0,H,Shared interests,10.0
+542.0,H,Shared interests,10.0
+543.0,H,Shared interests,15.0
+544.0,H,Shared interests,20.0
+545.0,H,Shared interests,10.0
+546.0,H,Shared interests,5.0
+547.0,H,Shared interests,15.0
+548.0,H,Shared interests,20.0
+549.0,H,Shared interests,20.0
+550.0,H,Shared interests,4.0
+551.0,H,Shared interests,0.0
+552.0,H,Shared interests,0.0
+,F,Shared interests,
