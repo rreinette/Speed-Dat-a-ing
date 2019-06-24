@@ -96,7 +96,7 @@
                     <div>
                         <div class="dc-data-count", style="margin-left: 25px; margin-top: 20px; font-size: 16px;">
                             <span class="filter-count"></span> selected out of <span class="total-count"></span> records | <a
-                                href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+                                href="javascript:dc.filterAll(); dc.renderAll()">Reset All</a>
                         </div>
                     </div>
                 </div>        
@@ -385,7 +385,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
     )
 
     attractive
-        .width(500)
+        .width(625)
         .height(270)
         .round(dc.round.floor)
         .alwaysUseRounding(true)
@@ -403,7 +403,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
     attractive.margins().top = 30
 
     sincere
-        .width(500)
+        .width(625)
         .height(270)
         .x(d3.scaleLinear().domain([0, 100]))
         .dimension(sincereDimension)
@@ -419,7 +419,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
     sincere.margins().top = 30
     
     fun
-        .width(500)
+        .width(625)
         .height(270)
         .x(d3.scaleLinear().domain([0, 100]))
         .dimension(funDimension)
@@ -458,6 +458,14 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
 
     chart2.margins().top = 80
 
+
+    var d3SchemeCategory20b = [
+        '#393b79','#5254a3','#6b6ecf','#9c9ede','#637939',
+        '#8ca252','#b5cf6b','#cedb9c','#8c6d31','#bd9e39',
+        '#e7ba52','#e7cb94','#843c39','#ad494a','#d6616b',
+        '#e7969c','#7b4173','#a55194','#ce6dbd','#de9ed6'
+    ];
+
     chart
         .width(480)
         .height(480)
@@ -467,18 +475,23 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
         .valueAccessor(function (d) {
             return d.value.id_count;
         })
+        .colorAccessor(function (d, i){
+            //console.log(d.path[0] + '-' + d.path[1])
+            //console.log(i)
+            return i;
+        })
 
     datesCount
         .crossfilter(ndx)
         .groupAll(all)
         .html({
             some: '<strong>%filter-count</strong> "dates" sélectionnées sur <strong>%total-count</strong>' +
-                ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a>',
+                ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();matchesChart.translate(80)\'>Reset All</a>',
             all: 'Toutes les dates sont sélectionnées. Cliquez sur les graphes pour appliquer des filtres'
         });
 
     matchesChart
-        .width(500)
+        .width(550)
         .height(950)
         .dimension(womenDimension)
         .group(womenGroup)
@@ -513,15 +526,50 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
     matchesChart.yAxis().tickFormat(function (v) {
             return field_dict[v];
         });
-    matchesChart.margins().top = 30    
+    matchesChart.margins().top = 30  
+
+    //matchesChart.renderlet(function (chart) {
+        // rotate x-axis labels
+    //    chart.selectAll('g.y text')
+    //    .attr('transform', 'translate(50,10) rotate(315)')
+    //})
 
     dc.renderAll();
+    
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
 
-    matchesChart
-        .select('.axis.y') 
-        .attr("text-anchor", "end")
-        .selectAll("text")
-        .attr("transform", "rotate(-45)")
+    matchesChart.translate = async function (x){
+        
+        await sleep(0);
+
+        console.log("rotate")
+        matchesChart
+            .select('.axis.y') 
+            .attr("text-anchor", "end")
+            .selectAll("text")
+            .attr("transform", "translate(0,10) rotate(-45)")
+        
+        console.log("translate")    
+        matchesChart
+            .select('.grid-line.horizontal')
+            .attr("transform", "translate(" + x + ",30)")
+        matchesChart
+            .select('.grid-line.vertical')
+            .attr("transform", "translate(" + x + ",30)")
+        matchesChart
+            .select('.chart-body')
+            .attr("transform", "translate(" + x + ",30)")
+        matchesChart
+            .select('.axis.x')
+            .attr("transform", "translate(" + x + ",908)")
+        matchesChart
+            .select('.axis.y')
+            .attr("transform", "translate(" + x + ",30)")
+    }
+    
+    matchesChart.translate(80);
 
 });
 
