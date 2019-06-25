@@ -42,7 +42,7 @@
         </div>
     </div>
 
-<div class="container" style="width:100%; margin-top: 55px; margin-left: 20px; margin-bottom: 30px">
+<div class="container" style="width:100%; margin-top: 55px; margin-bottom: 30px">
     <div class="row">
         <div class="col-sm-8">
             <div class="col-sm-6">
@@ -410,9 +410,12 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
         }
     )
 
+    histogramm_width = 635
+    histogramm_height = 278
+
     attractive
-        .width(625)
-        .height(270)
+        .width(histogramm_width)
+        .height(histogramm_height)
         .round(dc.round.floor)
         .alwaysUseRounding(true)
         .x(d3.scaleLinear().domain([0, 100]))
@@ -429,8 +432,8 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
     attractive.margins().top = 30
 
     sincere
-        .width(625)
-        .height(270)
+        .width(histogramm_width)
+        .height(histogramm_height)
         .x(d3.scaleLinear().domain([0, 100]))
         .dimension(sincereDimension)
         .group(sincereSumGroup)
@@ -445,8 +448,8 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
     sincere.margins().top = 30
     
     fun
-        .width(625)
-        .height(270)
+        .width(histogramm_width)
+        .height(histogramm_height)
         .x(d3.scaleLinear().domain([0, 100]))
         .dimension(funDimension)
         .group(funSumGroup)
@@ -469,7 +472,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
             return d.value.id_count;
         })
         .elasticX(true)
-        .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#e6550d', '#fd8d3c', '#fdae6b',
+        .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#e86d30', '#fd8d3c', '#fdae6b',
                         '#fdd0a2', '#31a354', '#74c476', '#a1d99b', '#c7e9c0', '#756bb1', '#9e9ac8', 
                         '#bcbddc', '#dadaeb', '#636363', '#969696'])
 
@@ -499,7 +502,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
             return d.value.id_count;
         })
         //.ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#e6550d'])
-        .ordinalColors(['#fc94fa', '#fc9494', '#acfc94', '#64e585', '#ffe65b', '#6baed6', '#9ecae1', '#c6dbef', '#e6550d', '#fd8d3c', '#fdae6b',
+        .ordinalColors(['#fc94fa', '#fc9494', '#acfc94', '#64e585', '#ffe65b', '#6baed6', '#9ecae1', '#c6dbef', '#e86d30', '#fd8d3c', '#fdae6b',
                         '#a1d99b', '#c7e9c0', '#9e9ac8', '#bcbddc', '#969696', '#fdd0a2', '#31a354', '#74c476', '#756bb1', '#dadaeb', '#636363',
                         '#3182bd'])
 
@@ -516,7 +519,8 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
 
     matchesChart
         .width(550)
-        .height(950)
+        //.height(950)
+        .height(970)
         .dimension(womenDimension)
         .group(womenGroup)
         .colors(d3.schemeRdYlGn[9])
@@ -575,7 +579,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
             .select('.axis.y') 
             .attr("text-anchor", "end")
             .selectAll("text")
-            .attr("transform", "translate(0,10) rotate(-45)")
+            .attr("transform", "translate(-5,-5) rotate(-45)")
         
         console.log("translate")    
         matchesChart
@@ -589,7 +593,8 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
             .attr("transform", "translate(" + x + ",30)")
         matchesChart
             .select('.axis.x')
-            .attr("transform", "translate(" + x + ",908)")
+            //.attr("transform", "translate(" + x + ",908)")
+            .attr("transform", "translate(" + x + ",928)")
         matchesChart
             .select('.axis.y')
             .attr("transform", "translate(" + x + ",30)")
@@ -597,7 +602,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
 
     matchesChart.all = all
     
-    matchesChart.translate(80);
+    matchesChart.translate(82);
 
 });
 
