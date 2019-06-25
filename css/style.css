@@ -2,13 +2,25 @@ a:hover, a:link, a:visited, a:active{
     text-decoration:None;
 }
 
-.nav-link{
+body{
+    background-image: url("../assets/background.png");
+    background-repeat: no-repeat ; /*pas de répition de l'image*/
+    background-attachment: fixed ;
+    background-position: top right;
+    background-size: 100% auto;
+}
+
+
+.nav-link, .nav-link:hover{
     color:white;
 }
+
+
 
 p{
     text-align:center;
     font-family:helvetica;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 img{
@@ -26,7 +38,10 @@ img{
     height:40px;
     font-size:20px;
     overflow:auto;
-    background-color:lightgray;
+    background-image:url("../assets/bar-background.png");
+    background-repeat: no-repeat ;
+    background-position: center left;
+    background-size: 75% 100%;
     padding-top:0px;
 }
 
@@ -36,7 +51,6 @@ img{
     padding-left:10px;
     padding-right:10px;
     height:100%;
-    background-color:gray;
 }
 
 .intro{
