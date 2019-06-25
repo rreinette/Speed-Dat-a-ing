@@ -11,7 +11,7 @@ var data = [{
   y: unpack(rows.filter(function (d){return d.gender == 'F' }), 'value'),
   legendgroup: 'Yes',
   scalegroup: 'Yes',
-  name: 'Femme',
+  name: 'Women',
   side: 'negative',
   box: {
     visible: false
@@ -30,7 +30,7 @@ var data = [{
   y: unpack(rows.filter(function (d){return d.gender == 'H' }), 'value'),
   legendgroup: 'No',
   scalegroup: 'No',
-  name: 'Homme',
+  name: 'Men',
   side: 'positive',
   box: {
     visible: false
@@ -45,7 +45,7 @@ var data = [{
 }]
 
 var layout = {
-  title: "Attribute of people that ",
+  title: "Not my main idea... but it's okay !",
   height : 450,
   width : 1000,
   yaxis: {
@@ -54,6 +54,8 @@ var layout = {
   violingap: 0,
   violingroupgap: 0,
   violinmode: "overlay",
+  paper_bgcolor: 'rgba(0,0,0,0)',
+  plot_bgcolor: 'rgba(0,0,0,0)'
 }
 
 Plotly.plot('violin2', data, layout);
