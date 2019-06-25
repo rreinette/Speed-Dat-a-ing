@@ -3,7 +3,6 @@ a:hover, a:link, a:visited, a:active{
 }
 
 body{
-    background-image: url("../assets/background.png");
     background-repeat: no-repeat ; /*pas de répition de l'image*/
     background-attachment: fixed ;
     background-position: top right;
@@ -38,10 +37,8 @@ img{
     height:40px;
     font-size:20px;
     overflow:auto;
-    background-image:url("../assets/bar-background.png");
-    background-repeat: no-repeat ;
-    background-position: center left;
-    background-size: 75% 100%;
+    background-color:black;
+    background-size: 75% auto;
     padding-top:0px;
 }
 
