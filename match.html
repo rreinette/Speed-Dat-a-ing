@@ -48,23 +48,23 @@
             <div class="col-sm-6">
                 <div class="row">
                     <div id="test" style="margin-left: 50px">
-                        <strong style="font-size: 20px; margin-left: -35px">Hommes</strong>
-                        <a class="reset" href="javascript:chart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                        <strong style="font-size: 20px; margin-left: -35px">Men</strong>
+                        <a class="reset" href="javascript:race_field.filterAll();dc.redrawAll();" style="display: none;">reset</a>
                         <div class="clearfix"></div>
                     </div>
                 </div>
                 <div class="row" style="margin-top: 40px">
                     <div class="col-sm-6">
                         <div id="test3">
-                            <strong style="font-size: 20px">Domaine d'étude</strong>
-                            <a class="reset" href="javascript:chart3.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                            <strong style="font-size: 20px">Field of Study</strong>
+                            <a class="reset" href="javascript:field.filterAll();dc.redrawAll();" style="display: none;">reset</a>
                             <div class="clearfix"></div>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div id="test2">
-                            <strong style="font-size: 20px">Ethnie</strong>
-                            <a class="reset" href="javascript:chart2.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                            <strong style="font-size: 20px">Ethnicity</strong>
+                            <a class="reset" href="javascript:race.filterAll();dc.redrawAll();" style="display: none;">reset</a>
                             <div class="clearfix"></div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
             <div class="col-sm-6">
                 <div class="row" style="margin-left: 15px">
                     <div id="attractive">
-                        <strong style="font-size: 20px">Attractivité</strong>
+                        <strong style="font-size: 20px">Attractivity</strong>
                         <!--
                         <span class="reset" style="display: none;">range: <span class="filter"></span></span>
                         -->
@@ -83,7 +83,7 @@
                 </div>
                 <div class="row" style="margin-left: 15px">
                     <div id="sincere">
-                        <strong style="font-size: 20px">Sincérité</strong>
+                        <strong style="font-size: 20px">Sincerity</strong>
                         <a class="reset" href="javascript:sincere.filterAll();dc.redrawAll();" style="display: none;">reset</a>
                         <div class="clearfix"></div>
                     </div>
@@ -107,7 +107,7 @@
         </div>
         <div class="col-sm-4">
             <div id="matches">
-                <strong style="font-size: 20px;">Matchs</strong>
+                <strong style="font-size: 20px;">Matches</strong>
                 <a class="reset" href="javascript:matchesChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
                 <div class="clearfix"></div>
             </div>
@@ -121,9 +121,9 @@
 <script type="text/javascript" src="js/dc.js"></script>
 <script type="text/javascript">
 
-var chart3 = dc.rowChart("#test3");
-var chart2 = dc.rowChart("#test2");
-var chart = dc.sunburstChart("#test");
+var field = dc.rowChart("#test3");
+var race = dc.rowChart("#test2");
+var race_field = dc.sunburstChart("#test");
 var attractive = dc.barChart("#attractive")
 var sincere = dc.barChart("#sincere")
 var fun = dc.barChart("#fun")
@@ -410,9 +410,12 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
         }
     )
 
+    histogramm_width = 635
+    histogramm_height = 278
+
     attractive
-        .width(625)
-        .height(270)
+        .width(histogramm_width)
+        .height(histogramm_height)
         .round(dc.round.floor)
         .alwaysUseRounding(true)
         .x(d3.scaleLinear().domain([0, 100]))
@@ -429,8 +432,8 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
     attractive.margins().top = 30
 
     sincere
-        .width(625)
-        .height(270)
+        .width(histogramm_width)
+        .height(histogramm_height)
         .x(d3.scaleLinear().domain([0, 100]))
         .dimension(sincereDimension)
         .group(sincereSumGroup)
@@ -445,8 +448,8 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
     sincere.margins().top = 30
     
     fun
-        .width(625)
-        .height(270)
+        .width(histogramm_width)
+        .height(histogramm_height)
         .x(d3.scaleLinear().domain([0, 100]))
         .dimension(funDimension)
         .group(funSumGroup)
@@ -460,7 +463,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
 
     fun.margins().top = 30
 
-    chart3
+    field
         .width(350)
         .height(400)
         .dimension(fieldDimension)
@@ -469,10 +472,13 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
             return d.value.id_count;
         })
         .elasticX(true)
+        .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#e86d30', '#fd8d3c', '#fdae6b',
+                        '#fdd0a2', '#31a354', '#74c476', '#a1d99b', '#c7e9c0', '#756bb1', '#9e9ac8', 
+                        '#bcbddc', '#dadaeb', '#636363', '#969696'])
 
-    chart3.margins().top = 20
+    field.margins().top = 20
 
-    chart2
+    race
         .width(300)
         .height(350)
         .dimension(raceDimension)
@@ -481,18 +487,12 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
             return d.value.id_count;
         })
         .elasticX(true)
+        //.ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#e6550d'])
+        .ordinalColors(['#fc94fa', '#fc9494', '#acfc94', '#64e585', '#ffe65b'])
 
-    chart2.margins().top = 80
+    race.margins().top = 80
 
-
-    var d3SchemeCategory20b = [
-        '#393b79','#5254a3','#6b6ecf','#9c9ede','#637939',
-        '#8ca252','#b5cf6b','#cedb9c','#8c6d31','#bd9e39',
-        '#e7ba52','#e7cb94','#843c39','#ad494a','#d6616b',
-        '#e7969c','#7b4173','#a55194','#ce6dbd','#de9ed6'
-    ];
-
-    chart
+    race_field
         .width(480)
         .height(480)
         .innerRadius(100)
@@ -501,11 +501,10 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
         .valueAccessor(function (d) {
             return d.value.id_count;
         })
-        .colorAccessor(function (d, i){
-            //console.log(d.path[0] + '-' + d.path[1])
-            //console.log(i)
-            return i;
-        })
+        //.ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#e6550d'])
+        .ordinalColors(['#fc94fa', '#fc9494', '#acfc94', '#64e585', '#ffe65b', '#6baed6', '#9ecae1', '#c6dbef', '#e86d30', '#fd8d3c', '#fdae6b',
+                        '#a1d99b', '#c7e9c0', '#9e9ac8', '#bcbddc', '#969696', '#fdd0a2', '#31a354', '#74c476', '#756bb1', '#dadaeb', '#636363',
+                        '#3182bd'])
 
     datesCount
         .crossfilter(ndx)
@@ -515,12 +514,13 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
             //    ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();matchesChart.translate(80)\'>Reset All</a>',
             some: '<strong>%filter-count</strong> "dates" sélectionnées sur <strong>%total-count</strong>' +
                 ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();matchesChart.translate(80)\'>Reset All</a>',
-            all: 'Toutes les dates sont sélectionnées. Cliquez sur les graphes pour appliquer des filtres'
+            all: 'All dates selected. Click on graphs to apply filters'
         });
 
     matchesChart
         .width(550)
-        .height(950)
+        //.height(950)
+        .height(970)
         .dimension(womenDimension)
         .group(womenGroup)
         .colors(d3.schemeRdYlGn[9])
@@ -531,7 +531,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
             return p.key[1];
         })
         .radiusValueAccessor(function (p) {
-            console.log(Math.round(8*p.value.matches_count/all.value()['count']*100))
+            //console.log(Math.round(8*p.value.matches_count/all.value()['count']*100))
             return Math.round(8*p.value.matches_count/all.value()['count']*100);
         })
         .maxBubbleRelativeSize(1)
@@ -579,7 +579,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
             .select('.axis.y') 
             .attr("text-anchor", "end")
             .selectAll("text")
-            .attr("transform", "translate(0,10) rotate(-45)")
+            .attr("transform", "translate(-5,-5) rotate(-45)")
         
         console.log("translate")    
         matchesChart
@@ -593,7 +593,8 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
             .attr("transform", "translate(" + x + ",30)")
         matchesChart
             .select('.axis.x')
-            .attr("transform", "translate(" + x + ",908)")
+            //.attr("transform", "translate(" + x + ",908)")
+            .attr("transform", "translate(" + x + ",928)")
         matchesChart
             .select('.axis.y')
             .attr("transform", "translate(" + x + ",30)")
@@ -601,7 +602,7 @@ d3.csv("data/new_dataset.csv").then(function(dates) {
 
     matchesChart.all = all
     
-    matchesChart.translate(80);
+    matchesChart.translate(82);
 
 });
 
